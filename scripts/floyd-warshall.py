@@ -9,9 +9,14 @@ graph = [
 
 def floyd_warshall(dist):
     n = len(dist)
+
+    # Intermediate vertices
     for k in range(n):
+        # Starting vertex
         for i in range(n):
+            # Ending vertex
             for j in range(n):
+                # Relaxation
                 dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
 
     return dist

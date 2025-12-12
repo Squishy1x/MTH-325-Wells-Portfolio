@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+github:
+  is_project_page: false
+
 title: MTH 325 Portfolio
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -33,9 +36,6 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-spaceship
-
-github:
-  is_project_page: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
