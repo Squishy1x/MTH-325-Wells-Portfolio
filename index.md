@@ -32,9 +32,9 @@ This portfolio demonstrates my understanding of the course material and displays
     - [Closed Walk](#closed-walk)
     - [Closed Trail or Circuit](#closed-trail-or-circuit)
     - [Closed Path or Cycle](#closed-path-or-cycle)
-      - [Notes](#notes)
+      - [\[Notes\]({{ site.baseurl }}/notes/982025-Wells.png)](#notes-sitebaseurl-notes982025-wellspng)
 - [Handshake Lemma](#handshake-lemma)
-      - [Notes](#notes-1)
+      - [\[Notes\]({{ site.baseurl }}/notes/982025-Wells.png)](#notes-sitebaseurl-notes982025-wellspng-1)
 - [Representations of Graphs](#representations-of-graphs)
   - [Adjacency Matrix](#adjacency-matrix)
   - [Adjacency List](#adjacency-list)
@@ -45,14 +45,14 @@ This portfolio demonstrates my understanding of the course material and displays
   - [Diagram Example](#diagram-example)
   - [Application](#application)
       - [Algorithm Code](#algorithm-code)
-      - [Notes](#notes-2)
+      - [\[Notes\]({{ site.baseurl }}/notes/91025-Wells.png)](#notes-sitebaseurl-notes91025-wellspng)
 - [Reverse Hakimi-Havel Algorithm](#reverse-hakimi-havel-algorithm)
   - [Statement](#statement-1)
   - [Concept and Math](#concept-and-math-1)
     - [Understanding](#understanding-1)
   - [Diagram](#diagram)
   - [Applications](#applications)
-      - [Notes](#notes-3)
+      - [\[Notes\]({{ site.baseurl }}/notes/91225-Wells.png)](#notes-sitebaseurl-notes91225-wellspng)
 - [Bipartite Graphs](#bipartite-graphs)
   - [Statement](#statement-2)
   - [Concept and Math](#concept-and-math-2)
@@ -69,80 +69,80 @@ This portfolio demonstrates my understanding of the course material and displays
     - [Understanding:](#understanding-6)
   - [Real World Applications](#real-world-applications)
   - [Summary](#summary)
-      - [Notes](#notes-4)
+      - [\[Notes\]({{ site.baseurl }}/notes/91225-Wells.png)](#notes-sitebaseurl-notes91225-wellspng-1)
 - [Weighted Graph](#weighted-graph)
-      - [Notes](#notes-5)
+      - [\[Notes\]({{ site.baseurl }}/notes/91525-Wells.png)](#notes-sitebaseurl-notes91525-wellspng)
 - [Adjacency Matrix](#adjacency-matrix-1)
-      - [Notes](#notes-6)
+      - [\[Notes\]({{ site.baseurl }}/notes/91525-Wells.png)](#notes-sitebaseurl-notes91525-wellspng-1)
 - [Tree](#tree)
-      - [Notes](#notes-7)
+      - [\[Notes\]({{ site.baseurl }}/notes/91525-Wells.png)](#notes-sitebaseurl-notes91525-wellspng-2)
 - [Cut Edge](#cut-edge)
-      - [Notes](#notes-8)
+      - [\[Notes\]({{ site.baseurl }}/notes/91525-Wells.png)](#notes-sitebaseurl-notes91525-wellspng-3)
 - [Non-Cut Edge](#non-cut-edge)
-      - [Notes](#notes-9)
+      - [\[Notes\]({{ site.baseurl }}/notes/91525-Wells.png)](#notes-sitebaseurl-notes91525-wellspng-4)
 - [Forest](#forest)
   - [Key Properties](#key-properties)
   - [Example](#example)
-      - [Notes](#notes-10)
+      - [\[Notes\]({{ site.baseurl }}/notes/91525-Wells.png)](#notes-sitebaseurl-notes91525-wellspng-5)
 - [Graph Theory Foundations](#graph-theory-foundations)
   - [Statement](#statement-3)
   - [Concept and Math](#concept-and-math-3)
   - [Understanding](#understanding-7)
   - [Application](#application-1)
 - [Conditional Statements](#conditional-statements)
-      - [Notes](#notes-11)
+      - [\[Notes\]({{ site.baseurl }}/notes/91725%20-%20Wells.png)](#notes-sitebaseurl-notes9172520-20wellspng)
 - [Kruskal’s Algorithm](#kruskals-algorithm)
-      - [Notes](#notes-12)
+      - [\[Notes\]({{ site.baseurl }}/notes/92425.png)](#notes-sitebaseurl-notes92425png)
 - [Dijkstra’s Algorithm (DJP)](#dijkstras-algorithm-djp)
-      - [Notes](#notes-13)
+      - [\[Notes\]({{ site.baseurl }}/notes/92425.png)](#notes-sitebaseurl-notes92425png-1)
 - [Maximal Graph](#maximal-graph)
-      - [Notes](#notes-14)
+      - [\[Notes\]({{ site.baseurl }}/notes/92625.png)](#notes-sitebaseurl-notes92625png)
 - [Minimal Graph](#minimal-graph)
-      - [Notes](#notes-15)
-      - [Notes](#notes-16)
+      - [\[Notes\]({{ site.baseurl }}/notes/92625.png)](#notes-sitebaseurl-notes92625png-1)
+      - [\[Notes\]({{ site.baseurl }}/notes/92625.png)](#notes-sitebaseurl-notes92625png-2)
 - [Strongly Connected (Directed Graphs)](#strongly-connected-directed-graphs)
-      - [Notes](#notes-17)
+      - [\[Notes\]({{ site.baseurl }}/notes/10625-Wells.png)](#notes-sitebaseurl-notes10625-wellspng)
 - [Weakly Connected (Directed Graphs)](#weakly-connected-directed-graphs)
-      - [Notes](#notes-18)
+      - [\[Notes\]({{ site.baseurl }}/notes/10625-Wells.png)](#notes-sitebaseurl-notes10625-wellspng-1)
 - [Reflexive Relations](#reflexive-relations)
-      - [Notes](#notes-19)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng)
 - [Irreflexive (Antireflexive) Relations](#irreflexive-antireflexive-relations)
-      - [Notes](#notes-20)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng-1)
 - [Symmetric Relations](#symmetric-relations)
-      - [Notes](#notes-21)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng-2)
 - [Antisymmetric Relations](#antisymmetric-relations)
-      - [Notes](#notes-22)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng-3)
 - [Transitive Relations](#transitive-relations)
-      - [Notes](#notes-23)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng-4)
 - [Equivalence Relations](#equivalence-relations)
-      - [Notes](#notes-24)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng-5)
 - [Partitions](#partitions)
-      - [Notes](#notes-25)
+      - [\[Notes\]({{ site.baseurl }}/notes/102225-Wells.png)](#notes-sitebaseurl-notes102225-wellspng-6)
 - [Hierholzer’s Algorithm](#hierholzers-algorithm)
   - [Key Idea](#key-idea)
   - [How the Algorithm Works](#how-the-algorithm-works)
   - [Why It Works](#why-it-works)
   - [Output](#output)
   - [Applications](#applications-1)
-      - [Notes](#notes-26)
+      - [\[Notes\]({{ site.baseurl }}/notes/102925%20-%20Wells.png)](#notes-sitebaseurl-notes10292520-20wellspng)
 - [Dijkstra’s Algorithm](#dijkstras-algorithm)
   - [Key Idea](#key-idea-1)
   - [How It Works](#how-it-works)
   - [Output](#output-1)
   - [Applications](#applications-2)
-      - [Notes #1 Notes #2](#notes-1-notes-2)
+      - [\[Notes #1\]({{ site.baseurl }}/notes/11325-Wells.png) \[Notes #2\]({{ site.baseurl }}/notes/11525.png)](#notes-1-sitebaseurl-notes11325-wellspng-notes-2-sitebaseurl-notes11525png)
 - [Hamilton Cycles and Paths](#hamilton-cycles-and-paths)
   - [Key Facts](#key-facts)
   - [Applications](#applications-3)
-      - [Notes #1 Notes #2](#notes-1-notes-2-1)
+      - [\[Notes #1\]({{ site.baseurl }}/notes/11525.png) \[Notes #2\]({{ site.baseurl }}/notes/11725%20-%20Hamilton%20Cycle.png)](#notes-1-sitebaseurl-notes11525png-notes-2-sitebaseurl-notes1172520-20hamilton20cyclepng)
 - [Planar Graphs](#planar-graphs)
   - [Key Facts](#key-facts-1)
   - [Applications](#applications-4)
-      - [Notes](#notes-27)
+      - [\[Notes\]({{ site.baseurl }}/notes/111425-Planar%20Graph.png)](#notes-sitebaseurl-notes111425-planar20graphpng)
 - [Max-Cut Problem](#max-cut-problem)
   - [Key Facts](#key-facts-2)
   - [Applications](#applications-5)
-      - [Notes](#notes-28)
+      - [\[Notes\]({{ site.baseurl }}/notes/111925-maxCut.png)](#notes-sitebaseurl-notes111925-maxcutpng)
 - [Proofs by Type](#proofs-by-type)
   - [Direct Proof](#direct-proof)
   - [Proof by Contradiction](#proof-by-contradiction)
@@ -260,7 +260,7 @@ $$ v_1, v_2. v_3, v_1 $$
 
 > Every path is a walk, but not every walk is a path
 
-##### [Notes](/notes/982025-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/982025-Wells.png)
 
 ---
 
@@ -292,7 +292,7 @@ print("Walk:", walk)
 print("Converted Path:", path)
 ```
 
-##### [Notes](/notes/982025-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/982025-Wells.png)
 
 ---
 
@@ -357,7 +357,7 @@ H --> I[Sequence Invalid → Not Graphical]
 
 ##### [Algorithm Code](#hakimihavel-algorithm-1)
 
-##### [Notes](/notes/91025-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91025-Wells.png)
 
 ---
 
@@ -398,7 +398,7 @@ V3 --> V4
 - Modeling networks
 - Generating graphs for testing or simulations
 
-##### [Notes](/notes/91225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91225-Wells.png)
 
 ---
 
@@ -528,7 +528,7 @@ Ensures no resource conflict.
 - Easily checked using **BFS coloring**
 - Extremely important in **matching, scheduling, networking, and OS design**
 
-##### [Notes](/notes/91225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91225-Wells.png)
 
 ---
 
@@ -545,7 +545,7 @@ Edges with weights: $E = \{(A,B,2), (B,C,3), (A,C,5)\}$
 - Shortest path algorithms (Dijkstra, Floyd-Warshall)
 - Network routing and traffic optimization
 
-##### [Notes](/notes/91525-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91525-Wells.png)
 
 ---
 
@@ -569,7 +569,7 @@ An **adjacency matrix** is a 2D array representing graph connections.
 - Efficient edge lookup
 - Useful for dense graphs
 
-##### [Notes](/notes/91525-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91525-Wells.png)
 
 ---
 
@@ -601,7 +601,7 @@ C --> D
 - Decision trees
 - Network hierarchies
 
-##### [Notes](/notes/91525-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91525-Wells.png)
 
 ---
 
@@ -628,7 +628,7 @@ B -.-> D
 - Network reliability
 - Bridge detection in infrastructure
 
-##### [Notes](/notes/91525-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91525-Wells.png)
 
 ---
 
@@ -655,7 +655,7 @@ C --> A
 - Redundant connections in networks
 - Ensuring fault tolerance
 
-##### [Notes](/notes/91525-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91525-Wells.png)
 
 ---
 
@@ -699,7 +699,7 @@ $|E| = |V| - k = 5 - 2 = 3$
 - Clustering and disjoint-set structures
 - Spanning forests in disconnected graphs
 
-##### [Notes](/notes/91525-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91525-Wells.png)
 
 ---
 
@@ -758,7 +758,7 @@ It is **false only when P is true and Q is false**; in every other case it is tr
 **Applications:**  
 Logical reasoning, proofs, algorithm correctness, and digital logic design.
 
-##### [Notes](/notes/91725%20-%20Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/91725%20-%20Wells.png)
 
 ---
 
@@ -784,7 +784,7 @@ $ O(E \log E) $ due to sorting.
 **Applications:**  
 Network design, clustering, cable/road layout, approximation algorithms.
 
-##### [Notes](/notes/92425.png)
+##### [Notes]({{ site.baseurl }}/notes/92425.png)
 
 ---
 
@@ -815,7 +815,7 @@ Compute the **shortest path from a source vertex** to all other vertices in a we
 **Applications:**  
 GPS routing, internet packet routing, games (pathfinding), network optimization.
 
-##### [Notes](/notes/92425.png)
+##### [Notes]({{ site.baseurl }}/notes/92425.png)
 
 ---
 
@@ -830,7 +830,7 @@ A **maximal graph (with respect to a property)** is a graph that **cannot have a
 **Key idea:**  
 > Maximal = edge-addition would break the property.
 
-##### [Notes](/notes/92625.png)
+##### [Notes]({{ site.baseurl }}/notes/92625.png)
 
 ---
 
@@ -844,7 +844,7 @@ A **minimal graph (with respect to a property)** is a graph where **removing any
 **Key idea:**  
 > Minimal = edge-removal breaks the property.
 
-##### [Notes](/notes/92625.png)
+##### [Notes]({{ site.baseurl }}/notes/92625.png)
 
 ---
 
@@ -852,7 +852,7 @@ These ideas show how graphs sit on the “boundary” of a property:
 - **Maximal** → can’t add edges  
 - **Minimal** → can’t remove edges
 
-##### [Notes](/notes/92625.png)
+##### [Notes]({{ site.baseurl }}/notes/92625.png)
 
 ---
 
@@ -867,7 +867,7 @@ A directed graph $D$ is **strongly connected** if **every vertex can reach every
 **Key idea:**  
 > Direction matters, and you must be able to travel both ways.
 
-##### [Notes](/notes/10625-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/10625-Wells.png)
 
 ---
 
@@ -882,7 +882,7 @@ A directed graph $D$ is **weakly connected** if, when you **ignore edge directio
 **Key idea:**  
 > Connected when directions are removed, but not necessarily with directed paths.
 
-##### [Notes](/notes/10625-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/10625-Wells.png)
 
 ---
 
@@ -894,7 +894,7 @@ A relation $R$ on a set $A$ is **reflexive** if every element relates to itself.
 **Key idea:**  
 > Everyone points to themselves.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -906,7 +906,7 @@ A relation $R$ on a set $A$ is **irreflexive** if no element relates to itself.
 **Key idea:**  
 > Nobody points to themselves.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -918,7 +918,7 @@ A relation $R$ is **symmetric** if every connection works both ways.
 **Key idea:**  
 > If you relate to me, I relate to you.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -930,7 +930,7 @@ A relation $R$ is **antisymmetric** if the only way both $(a, b)$ and $(b, a)$ c
 **Key idea:**  
 > Two-way relations only happen when the elements are the same.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -942,7 +942,7 @@ A relation $R$ is **transitive** if it passes connections along.
 **Key idea:**  
 > If A relates to B and B to C, then A must relate to C.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -958,7 +958,7 @@ These relations group elements into “equivalent” categories.
 **Key idea:**  
 > Behaves like an equality test that might group many distinct items together.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -971,7 +971,7 @@ A **partition** of a set $A$ is a collection of **non-overlapping**, **non-empty
 **Key idea:**  
 > Break the set into disjoint groups where each element belongs to one and only one group.
 
-##### [Notes](/notes/102225-Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102225-Wells.png)
 
 ---
 
@@ -1003,7 +1003,7 @@ A complete Euler circuit that uses every edge exactly once.
 - DNA sequencing reconstruction.  
 - Network traversal and circuit design.  
 
-##### [Notes](/notes/102925%20-%20Wells.png)
+##### [Notes]({{ site.baseurl }}/notes/102925%20-%20Wells.png)
 
 ---
 
@@ -1032,7 +1032,7 @@ It expands outward from the start vertex, always choosing the **closest unvisite
 - Network packet routing.  
 - Pathfinding in games (A*, navigation grids).
 
-##### [Notes #1](/notes/11325-Wells.png) [Notes #2](/notes/11525.png) 
+##### [Notes #1]({{ site.baseurl }}/notes/11325-Wells.png) [Notes #2]({{ site.baseurl }}/notes/11525.png) 
 
 ---
 
@@ -1054,7 +1054,7 @@ It expands outward from the start vertex, always choosing the **closest unvisite
 - Circuit layout design.  
 - Genome assembly and computational biology.
 
-##### [Notes #1](/notes/11525.png) [Notes #2](/notes/11725%20-%20Hamilton%20Cycle.png)
+##### [Notes #1]({{ site.baseurl }}/notes/11525.png) [Notes #2]({{ site.baseurl }}/notes/11725%20-%20Hamilton%20Cycle.png)
 
 ---
 
@@ -1075,7 +1075,7 @@ A **planar graph** is a graph that can be drawn on a plane **without any edges c
 - Geographic mapping (no overlapping roads).  
 - Network visualization and graph drawing algorithms.
 
-##### [Notes](/notes/111425-Planar%20Graph.png)
+##### [Notes]({{ site.baseurl }}/notes/111425-Planar%20Graph.png)
 
 ---
 
@@ -1099,7 +1099,7 @@ The **Max-Cut problem** is to partition the vertices of a graph $G = (V, E)$ int
 - Statistical physics (Ising model).  
 - Network clustering and community detection.
 
-##### [Notes](/notes/111925-maxCut.png)
+##### [Notes]({{ site.baseurl }}/notes/111925-maxCut.png)
 
 ---
 
@@ -1550,4 +1550,4 @@ Each algorithm has:
 - <a href="https://faculty.gvsu.edu/wellsc/discrete/data_structures_done_discretely.html" target="_blank" rel="noopener noreferrer">
   Class Text
 </a>
-- [Notes](/notes/)
+- [Notes]({{ site.baseurl }}/notes/)
