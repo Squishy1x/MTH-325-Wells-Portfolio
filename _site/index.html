@@ -1,0 +1,2394 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>MTH 325 Portfolio | Discrete Structures: Computer Science 2 - Clark Wells</title>
+<meta name="generator" content="Jekyll v3.10.0">
+<meta property="og:title" content="MTH 325 Portfolio">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Discrete Structures: Computer Science 2 - Clark Wells">
+<meta property="og:description" content="Discrete Structures: Computer Science 2 - Clark Wells">
+<link rel="canonical" href="https://squishy1x.github.io/MTH-325-Wells-Portfolio/">
+<meta property="og:url" content="https://squishy1x.github.io/MTH-325-Wells-Portfolio/">
+<meta property="og:site_name" content="MTH 325 Portfolio">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="MTH 325 Portfolio">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Discrete Structures: Computer Science 2 - Clark Wells","headline":"MTH 325 Portfolio","name":"MTH 325 Portfolio","url":"https://squishy1x.github.io/MTH-325-Wells-Portfolio/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/MTH-325-Wells-Portfolio/assets/css/style.css?v=a9c8f32e3649e1936e96579ce2fc8053b8cc607e">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/MTH-325-Wells-Portfolio/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/MTH-325-Wells-Portfolio/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- start theme color meta headers -->
+<meta name="theme-color" content="#353535">
+<meta name="msapplication-navbutton-color" content="#353535">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+<style>
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 10rem;
+}
+</style>
+  <script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+  <body>
+    <div id="header">
+        <nav>
+            <ul>
+                
+                    <li class="fork"><a href="#table-of-contents">Table Of Contents</a></li>
+                    <li class="downloads"><a href="/MTH-325-Wells-Portfolio/notes/">NOTES</a></li>
+                    <li class="downloads"><a href="/MTH-325-Wells-Portfolio/downloads/">SCRIPTS</a></li>
+                    <li class="title">DOWNLOADS</li>
+                
+            </ul>
+        </nav>
+    </div> <!-- end header -->
+
+    <!-- OLD HEADER
+      <div id="header">
+        <nav>
+          <ul>
+            <li class="fork"><a href="https://github.com/Squishy1x/MTH-325-Wells-Portfolio">View On GitHub</a></li>
+            
+          </ul>
+        </nav>
+      </div> --> <!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>MTH 325 Portfolio</h1>
+          <p>Discrete Structures: Computer Science 2 - Clark Wells</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Squishy1x">Squishy1x</a></span>
+          <span class="credits right">Hosted on GitHub Pages — Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+        </div>
+
+        <p>/MTH-325-Wells-Portfolio—
+layout: default
+title: Portfolio - Josh Burgenmeyer
+—</p>
+
+<h2 id="mth-325-portfolio-">MTH 325 Portfolio <!-- omit in toc -->
+</h2>
+
+<p><strong>Joshua Burgenmeyer</strong></p>
+
+<p>This portfolio demonstrates my understanding of the course material and displays my progress towards my class goals. Inside this portfolio, there are class topics with concept explanations, notes for understanding, python implementations, and real-world applications. There are also proofs with various different proving techniques pertaining to the concepts and conjectures learned this semester.</p>
+
+<hr>
+
+<h2 id="goals">Goals</h2>
+
+<ul>
+  <li>Apply class concepts into other courses</li>
+  <li>Find applications of class topics into my life</li>
+  <li>Know real world applications for studied theories</li>
+  <li>Strengthen my ability to write formal mathematical proofs</li>
+</ul>
+
+<hr>
+
+<h2 id="table-of-contents" style="scroll-margin-top:120px;">Table of Contents</h2>
+
+<ul>
+  <li><a href="#title-portfolio---josh-burgenmeyer">title: Portfolio - Josh Burgenmeyer</a></li>
+  <li><a href="#goals">Goals</a></li>
+  <li>
+<a href="#reader-guide">Reader Guide</a>
+    <ul>
+      <li>
+<a href="#first-project-check">First Project Check</a>
+        <ul>
+          <li><a href="#progress">Progress</a></li>
+          <li><a href="#challenges">Challenges</a></li>
+          <li><a href="#next-steps">Next Steps</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+<a href="#graphs">Graphs</a>
+    <ul>
+      <li><a href="#closed-walk">Closed Walk</a></li>
+      <li><a href="#closed-trail-or-circuit">Closed Trail or Circuit</a></li>
+      <li><a href="#closed-path-or-cycle">Closed Path or Cycle</a></li>
+    </ul>
+  </li>
+  <li><a href="#handshake-lemma">Handshake Lemma</a></li>
+  <li>
+<a href="#representations-of-graphs">Representations of Graphs</a>
+    <ul>
+      <li><a href="#adjacency-matrix">Adjacency Matrix</a></li>
+      <li><a href="#adjacency-list">Adjacency List</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#hakimihavel-algorithm">Hakimi–Havel Algorithm</a>
+    <ul>
+      <li><a href="#statement">Statement</a></li>
+      <li>
+<a href="#concept-and-math">Concept and Math</a>
+        <ul>
+          <li><a href="#understanding">Understanding</a></li>
+        </ul>
+      </li>
+      <li><a href="#diagram-example">Diagram Example</a></li>
+      <li>
+<a href="#application">Application</a>
+        <ul>
+          <li><a href="#algorithm-code">Algorithm Code</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+<a href="#reverse-hakimi-havel-algorithm">Reverse Hakimi-Havel Algorithm</a>
+    <ul>
+      <li><a href="#statement-1">Statement</a></li>
+      <li>
+<a href="#concept-and-math-1">Concept and Math</a>
+        <ul>
+          <li><a href="#understanding-1">Understanding</a></li>
+        </ul>
+      </li>
+      <li><a href="#diagram">Diagram</a></li>
+      <li><a href="#applications">Applications</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#bipartite-graphs">Bipartite Graphs</a>
+    <ul>
+      <li><a href="#statement-2">Statement</a></li>
+      <li>
+<a href="#concept-and-math-2">Concept and Math</a>
+        <ul>
+          <li><a href="#definition-setup">Definition Setup</a></li>
+          <li><a href="#understanding-2">Understanding:</a></li>
+          <li><a href="#key-theorem">Key Theorem</a></li>
+          <li><a href="#why-odd-cycles-break-bipartite-graphs">Why Odd Cycles Break Bipartite Graphs</a></li>
+          <li><a href="#understanding-3">Understanding:</a></li>
+          <li><a href="#example-even-cycle-is-bipartite">Example: Even Cycle is Bipartite</a></li>
+          <li><a href="#understanding-4">Understanding:</a></li>
+          <li><a href="#example-odd-cycle-is-not-bipartite">Example: Odd Cycle is NOT Bipartite</a></li>
+          <li><a href="#understanding-5">Understanding:</a></li>
+          <li><a href="#algorithmic-test-for-bipartite-graphs-using-bfs">Algorithmic Test for Bipartite Graphs (Using BFS)</a></li>
+          <li><a href="#understanding-6">Understanding:</a></li>
+        </ul>
+      </li>
+      <li><a href="#real-world-applications">Real World Applications</a></li>
+      <li><a href="#summary">Summary</a></li>
+    </ul>
+  </li>
+  <li><a href="#weighted-graph">Weighted Graph</a></li>
+  <li><a href="#adjacency-matrix-1">Adjacency Matrix</a></li>
+  <li><a href="#tree">Tree</a></li>
+  <li><a href="#cut-edge">Cut Edge</a></li>
+  <li><a href="#non-cut-edge">Non-Cut Edge</a></li>
+  <li>
+<a href="#forest">Forest</a>
+    <ul>
+      <li><a href="#key-properties">Key Properties</a></li>
+      <li><a href="#example">Example</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#graph-theory-foundations">Graph Theory Foundations</a>
+    <ul>
+      <li><a href="#statement-3">Statement</a></li>
+      <li><a href="#concept-and-math-3">Concept and Math</a></li>
+      <li><a href="#understanding-7">Understanding</a></li>
+      <li><a href="#application-1">Application</a></li>
+    </ul>
+  </li>
+  <li><a href="#conditional-statements">Conditional Statements</a></li>
+  <li><a href="#kruskals-algorithm">Kruskal’s Algorithm</a></li>
+  <li><a href="#dijkstras-algorithm-djp">Dijkstra’s Algorithm (DJP)</a></li>
+  <li><a href="#maximal-graph">Maximal Graph</a></li>
+  <li><a href="#minimal-graph">Minimal Graph</a></li>
+  <li><a href="#strongly-connected-directed-graphs">Strongly Connected (Directed Graphs)</a></li>
+  <li><a href="#weakly-connected-directed-graphs">Weakly Connected (Directed Graphs)</a></li>
+  <li><a href="#reflexive-relations">Reflexive Relations</a></li>
+  <li><a href="#irreflexive-antireflexive-relations">Irreflexive (Antireflexive) Relations</a></li>
+  <li><a href="#symmetric-relations">Symmetric Relations</a></li>
+  <li><a href="#antisymmetric-relations">Antisymmetric Relations</a></li>
+  <li><a href="#transitive-relations">Transitive Relations</a></li>
+  <li><a href="#equivalence-relations">Equivalence Relations</a></li>
+  <li><a href="#partitions">Partitions</a></li>
+  <li>
+<a href="#hierholzers-algorithm">Hierholzer’s Algorithm</a>
+    <ul>
+      <li><a href="#key-idea">Key Idea</a></li>
+      <li><a href="#how-the-algorithm-works">How the Algorithm Works</a></li>
+      <li><a href="#why-it-works">Why It Works</a></li>
+      <li><a href="#output">Output</a></li>
+      <li><a href="#applications-1">Applications</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#dijkstras-algorithm">Dijkstra’s Algorithm</a>
+    <ul>
+      <li><a href="#key-idea-1">Key Idea</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#output-1">Output</a></li>
+      <li><a href="#applications-2">Applications</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#hamilton-cycles-and-paths">Hamilton Cycles and Paths</a>
+    <ul>
+      <li><a href="#key-facts">Key Facts</a></li>
+      <li><a href="#applications-3">Applications</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#planar-graphs">Planar Graphs</a>
+    <ul>
+      <li><a href="#key-facts-1">Key Facts</a></li>
+      <li><a href="#applications-4">Applications</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#max-cut-problem">Max-Cut Problem</a>
+    <ul>
+      <li><a href="#key-facts-2">Key Facts</a></li>
+      <li><a href="#applications-5">Applications</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#proofs-by-type">Proofs by Type</a>
+    <ul>
+      <li><a href="#direct-proof">Direct Proof</a></li>
+      <li><a href="#proof-by-contradiction">Proof by Contradiction</a></li>
+      <li><a href="#proof-by-contrapositive">Proof by Contrapositive</a></li>
+      <li><a href="#proof-by-strong-induction">Proof by Strong Induction</a></li>
+      <li><a href="#constructive-proof">Constructive Proof</a></li>
+    </ul>
+  </li>
+  <li><a href="#proofs"><strong>Proofs</strong></a></li>
+  <li>
+<a href="#1-direct--graph-with-degree-2-is-a-cycle">1. Direct — Graph with Degree 2 is a Cycle</a>
+    <ul>
+      <li><a href="#statement-4">Statement</a></li>
+      <li><a href="#proof-steps">Proof Steps</a></li>
+      <li><a href="#application-2">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#2-contrapositive--non-cut-edge-implies-multiple-paths">2. Contrapositive — Non-Cut Edge Implies Multiple Paths</a>
+    <ul>
+      <li><a href="#statement-5">Statement</a></li>
+      <li><a href="#proof-steps-1">Proof Steps</a></li>
+      <li><a href="#application-3">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#3-contradiction--every-tree-has-leaves">3. Contradiction — Every Tree Has Leaves</a>
+    <ul>
+      <li><a href="#statement-6">Statement</a></li>
+      <li><a href="#proof-steps-2">Proof Steps</a></li>
+      <li><a href="#application-4">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#4-induction--tree-with-n-vertices-has-n1-edges">4. Induction — Tree with n Vertices Has n−1 Edges</a>
+    <ul>
+      <li><a href="#statement-7">Statement</a></li>
+      <li><a href="#proof-steps-3">Proof Steps</a></li>
+      <li><a href="#application-5">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#5-constructive--euler-circuit-in-even-degree-connected-graph">5. Constructive — Euler Circuit in Even-Degree Connected Graph</a>
+    <ul>
+      <li><a href="#statement-8">Statement</a></li>
+      <li><a href="#proof-steps-4">Proof Steps</a></li>
+      <li><a href="#application-6">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#6-contradiction---every-tree-has-exactly-one-path-between-two-vertices">6. Contradiction - Every Tree Has Exactly One Path Between Two Vertices</a>
+    <ul>
+      <li><a href="#statement-9">Statement</a></li>
+      <li><a href="#proof">Proof</a></li>
+      <li><a href="#explanation">Explanation</a></li>
+      <li><a href="#application-7">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#7-contradiction---every-tree-has-leaves">7. Contradiction - Every Tree Has Leaves</a>
+    <ul>
+      <li><a href="#statement-10">Statement</a></li>
+      <li><a href="#proof-1">Proof</a></li>
+      <li><a href="#explanation-1">Explanation</a></li>
+      <li><a href="#application-8">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#8-direct---if-%CE%B4g--2-then-g-contains-a-cycle">8. Direct - If δ(G) ≥ 2 Then G Contains a Cycle</a>
+    <ul>
+      <li><a href="#statement-11">Statement</a></li>
+      <li><a href="#proof-2">Proof</a></li>
+      <li><a href="#explanation-2">Explanation</a></li>
+      <li><a href="#application-9">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#9-direct---if-abse--n-then-g-has-a-cycle">9. Direct - If abs(E) ≥ n Then G Has a Cycle</a>
+    <ul>
+      <li><a href="#statement-12">Statement</a></li>
+      <li><a href="#proof-3">Proof</a></li>
+      <li><a href="#explanation-3">Explanation</a></li>
+      <li><a href="#application-10">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#10-constructive---euler-circuit-in-even-degree-connected-graph">10. Constructive - Euler Circuit in Even-Degree Connected Graph</a>
+    <ul>
+      <li><a href="#statement-13">Statement</a></li>
+      <li><a href="#proof-constructive">Proof (Constructive)</a></li>
+      <li><a href="#explanation-4">Explanation</a></li>
+      <li><a href="#application-11">Application</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#algorithms-with-code">Algorithms with Code</a>
+    <ul>
+      <li><a href="#hakimihavel-algorithm-1">Hakimi–Havel Algorithm</a></li>
+      <li><a href="#dijkstras-algorithm-1">Dijkstra’s Algorithm</a></li>
+      <li><a href="#floydwarshall-algorithm">Floyd–Warshall Algorithm</a></li>
+      <li><a href="#kruskals-algorithm-1">Kruskal’s Algorithm</a></li>
+      <li><a href="#greedy-graph-coloring">Greedy Graph Coloring</a></li>
+      <li><a href="#depth-first-search-dfs">Depth-First Search (DFS)</a></li>
+      <li><a href="#fordfulkerson-algorithm">Ford–Fulkerson Algorithm</a></li>
+    </ul>
+  </li>
+  <li><a href="#citations">Citations</a></li>
+</ul>
+
+<hr>
+
+<h2 id="reader-guide">Reader Guide</h2>
+
+<h3 id="first-project-check">First Project Check</h3>
+<p>This meeting really helped me fully develop my goals for this class. After the meeting I went and made a plan to fulfill my goals and integrate into my portfolio layout.</p>
+
+<h4 id="progress">Progress</h4>
+<ul>
+  <li>Written my learning goals</li>
+  <li>Created the structure of my portfolio</li>
+  <li>Added proofs</li>
+  <li>Written scripts</li>
+</ul>
+
+<h4 id="challenges">Challenges</h4>
+<ul>
+  <li>Writing proofs</li>
+  <li>Making graphs in Markdown</li>
+</ul>
+
+<h4 id="next-steps">Next Steps</h4>
+<ul>
+  <li>Add more note entries</li>
+  <li>Add more topics</li>
+  <li>Add more formal proofs</li>
+  <li>Add more real-world applications</li>
+</ul>
+
+<hr>
+
+<h2 id="graphs">Graphs</h2>
+
+<p>A <strong>graph</strong> is a structure made of:</p>
+<ul>
+  <li>A set of <strong>vertices</strong> (nodes)</li>
+  <li>A set of <strong>edges</strong> connecting vertices</li>
+</ul>
+
+<p>Mathematically:</p>
+
+<p>$$ G = (V, E) $$</p>
+
+<p>Where:</p>
+<ul>
+  <li>V is the vertex set</li>
+  <li>E is the edge set</li>
+</ul>
+
+<h4 id="closed-walk">Closed Walk</h4>
+
+<p>$$ v_1, v_2, v_3, v_2, v_1 $$</p>
+
+<h4 id="closed-trail-or-circuit">Closed Trail or Circuit</h4>
+<p><em>Cant repeat an edge</em></p>
+
+<p>$$ v_2, v_3, v_1, v_2, v_5, v_4, v_2 $$</p>
+
+<h4 id="closed-path-or-cycle">Closed Path or Cycle</h4>
+
+<p>$$ v_1, v_2. v_3, v_1 $$</p>
+
+<blockquote>
+  <p>Every path is a walk, but not every walk is a path</p>
+</blockquote>
+
+<h5 id="notes-">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA8%EF%80%BA2025-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="handshake-lemma">Handshake Lemma</h2>
+<p>In any graph, the sum if the degrees if the vertices is <strong>twice</strong> the number of edges.</p>
+
+<p>Starting with a walk, make a path with the same end:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">walk_to_path</span><span class="p">(</span><span class="n">walk</span><span class="p">):</span>
+<span class="n">path</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">visited_index</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">walk</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">visited_index</span><span class="p">:</span>
+<span class="n">cycle_start</span> <span class="o">=</span> <span class="n">visited_index</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>
+<span class="n">path</span> <span class="o">=</span> <span class="n">path</span><span class="p">[:</span><span class="n">cycle_start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+
+<span class="n">visited_index</span> <span class="o">=</span> <span class="p">{</span><span class="n">vertex</span><span class="p">:</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">vertex</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">path</span><span class="p">)}</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="n">path</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+<span class="n">visited_index</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+
+<span class="k">return</span> <span class="n">path</span>
+
+<span class="n">walk</span> <span class="o">=</span> <span class="p">[</span><span class="s">'A'</span><span class="p">,</span> <span class="s">'B'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">,</span> <span class="s">'B'</span><span class="p">,</span> <span class="s">'D'</span><span class="p">,</span> <span class="s">'E'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">,</span> <span class="s">'F'</span><span class="p">]</span>
+<span class="n">path</span> <span class="o">=</span> <span class="n">walk_to_path</span><span class="p">(</span><span class="n">walk</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"Walk:"</span><span class="p">,</span> <span class="n">walk</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Converted Path:"</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h5 id="notes--1">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA8%EF%80%BA2025-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="representations-of-graphs">Representations of Graphs</h2>
+
+<h3 id="adjacency-matrix">Adjacency Matrix</h3>
+
+<ul>
+  <li>A 2D array</li>
+  <li>Matrix[i][j] = 1 if an edge exists</li>
+  <li>Uses more memory</li>
+  <li>Best for dense graphs</li>
+</ul>
+
+<h3 id="adjacency-list">Adjacency List</h3>
+
+<ul>
+  <li>Dictionary or list of neighbors</li>
+  <li>Uses less memory</li>
+  <li>Best for sparse graphs</li>
+  <li>Faster neighbor lookups</li>
+</ul>
+
+<hr>
+
+<h2 id="hakimihavel-algorithm">Hakimi–Havel Algorithm</h2>
+
+<h3 id="statement">Statement</h3>
+<p>The Hakimi–Havel algorithm determines whether a given degree sequence corresponds to a simple graph.</p>
+
+<h3 id="concept-and-math">Concept and Math</h3>
+
+<ol>
+  <li>Start with a degree sequence sorted in non-increasing order.</li>
+  <li>Remove the first degree <code class="language-plaintext highlighter-rouge">d</code> (largest).</li>
+  <li>Subtract 1 from the next <code class="language-plaintext highlighter-rouge">d</code> degrees in the sequence.</li>
+  <li>Repeat until all degrees are zero or the sequence becomes invalid.</li>
+  <li>If all degrees reduce to zero → sequence is graphical; otherwise → not graphical.</li>
+</ol>
+
+<h4 id="understanding">Understanding</h4>
+<ul>
+  <li>The algorithm repeatedly “connects” the vertex with the highest degree to the next vertices.</li>
+  <li>If the sequence can be reduced to all zeros, the connections are possible in a simple graph.</li>
+</ul>
+
+<h3 id="diagram-example">Diagram Example</h3>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7aW5pdDoge1xuXCJ0aGVtZVwiOiBcImRlZmF1bHRcIixcblwiZmxvd2NoYXJ0XCI6IHsgXCJ1c2VNYXhXaWR0aFwiOiBmYWxzZSB9LFxuXCJ0aGVtZVZhcmlhYmxlc1wiOiB7IFwiZm9udFNpemVcIjogMTIsIFwibm9kZVBhZGRpbmdcIjogNSwgXCJlZGdlTWFyZ2luXCI6IDUgfVxufX0lJVxuZ3JhcGggVERcbkFbRGVncmVlIFNlcXVlbmNlOiAzLDIsMiwyLDFdIC0tPiBCW1JlbW92ZSAzLCBzdWJ0cmFjdCAxIGZyb20gbmV4dCAzXVxuQiAtLT4gQ1tOZXcgU2VxdWVuY2U6IDEsMSwxLDFdXG5DIC0tPiBEW1JlbW92ZSAxLCBzdWJ0cmFjdCAxIGZyb20gbmV4dCAxXVxuRCAtLT4gRVtOZXcgU2VxdWVuY2U6IDAsMSwxXVxuRSAtLT4gRltSZW1vdmUgMSwgc3VidHJhY3QgMSBmcm9tIG5leHQgMV1cbkYgLS0-IEdbTmV3IFNlcXVlbmNlOiAwLDAsMV1cbkcgLS0-IEhbUmVtb3ZlIDEsIHN1YnRyYWN0IDEgZnJvbSBuZXh0IDFdXG5IIC0tPiBJW1NlcXVlbmNlIEludmFsaWQg4oaSIE5vdCBHcmFwaGljYWxdIiwibWVybWFpZCI6bnVsbH0"></p>
+
+<h3 id="application">Application</h3>
+<ul>
+  <li>Network testing</li>
+  <li>Social network analysis</li>
+  <li>Generating valid test graphs for algorithms</li>
+</ul>
+
+<h5 id="algorithm-code"><a href="#hakimihavel-algorithm-1">Algorithm Code</a></h5>
+
+<h5 id="notes--2">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA10%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="reverse-hakimi-havel-algorithm">Reverse Hakimi-Havel Algorithm</h2>
+
+<h3 id="statement-1">Statement</h3>
+<p>The Reverse Hakimi–Havel algorithm constructs a simple graph from a valid degree sequence.</p>
+
+<h3 id="concept-and-math-1">Concept and Math</h3>
+<ol>
+  <li>Start with a valid degree sequence sorted in non-increasing order.</li>
+  <li>Take the vertex with the largest degree <code class="language-plaintext highlighter-rouge">d</code>.</li>
+  <li>Connect it to the next <code class="language-plaintext highlighter-rouge">d</code> vertices in the sequence.</li>
+  <li>Decrease the degree of connected vertices accordingly.</li>
+  <li>Repeat until all vertices have degree 0.</li>
+</ol>
+
+<h4 id="understanding-1">Understanding</h4>
+<ul>
+  <li>This algorithm is the constructive inverse of Hakimi–Havel.</li>
+  <li>It produces an actual simple graph corresponding to the degree sequence.</li>
+</ul>
+
+<h3 id="diagram">Diagram</h3>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7aW5pdDoge1xuXCJ0aGVtZVwiOiBcImRlZmF1bHRcIixcblwiZmxvd2NoYXJ0XCI6IHsgXCJ1c2VNYXhXaWR0aFwiOiBmYWxzZSB9LFxuXCJ0aGVtZVZhcmlhYmxlc1wiOiB7IFwiZm9udFNpemVcIjogMTIsIFwibm9kZVBhZGRpbmdcIjogNSwgXCJlZGdlTWFyZ2luXCI6IDUgfVxufX0lJVxuZ3JhcGggVERcblYxW1ZlcnRleCAxOiBEZWdyZWUgM10gLS0-IFYyW0Nvbm5lY3QgdG8gVmVydGV4IDJdXG5WMSAtLT4gVjNbQ29ubmVjdCB0byBWZXJ0ZXggM11cblYxIC0tPiBWNFtDb25uZWN0IHRvIFZlcnRleCA0XVxuVjIgLS0-IFYzXG5WMyAtLT4gVjQiLCJtZXJtYWlkIjpudWxsfQ"></p>
+
+<h3 id="applications">Applications</h3>
+<ul>
+  <li>Graph construction from degree sequences</li>
+  <li>Modeling networks</li>
+  <li>Generating graphs for testing or simulations</li>
+</ul>
+
+<h5 id="notes--3">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA12%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="bipartite-graphs">Bipartite Graphs</h2>
+
+<h3 id="statement-2">Statement</h3>
+<p>A graph $G = (V, E)$ is <strong>bipartite</strong> if its vertex set can be split into two disjoint sets<br>
+$V_1$ and $V_2$ such that <strong>every edge connects a vertex in $V_1$ to one in $V_2$</strong>, and <strong>no edge connects two vertices within the same set</strong>.</p>
+
+<h3 id="concept-and-math-2">Concept and Math</h3>
+
+<h4 id="definition-setup">Definition Setup</h4>
+<p>Let
+$$
+V = V_1 \cup V_2
+$$
+where:</p>
+<ul>
+  <li>$V_1 \cap V_2 = \emptyset$</li>
+  <li>Every edge $(u, v) \in E$ satisfies:
+    <ul>
+      <li>$u \in V_1$ and $v \in V_2$, or</li>
+      <li>$u \in V_2$ and $v \in V_1$</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="understanding-2">Understanding:</h4>
+<p>We split all vertices into exactly <strong>two groups</strong>, and edges are only allowed to go <strong>between groups</strong>, never inside the same group.</p>
+
+<h4 id="key-theorem">Key Theorem</h4>
+<blockquote>
+  <p>A graph is bipartite <strong>if and only if</strong> it contains <strong>no odd-length cycles</strong>.</p>
+</blockquote>
+
+<h4 id="why-odd-cycles-break-bipartite-graphs">Why Odd Cycles Break Bipartite Graphs</h4>
+
+<p>Suppose we try to 2-color a cycle:</p>
+
+<ul>
+  <li>Start coloring alternating vertices:
+    <ul>
+      <li>Red, Blue, Red, Blue, …</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If the cycle length is <strong>odd</strong>, the last vertex must match the <strong>first color</strong>, which creates a conflict.</p>
+
+<h4 id="understanding-3">Understanding:</h4>
+<p>Bipartite graphs require a clean alternating structure. Odd cycles force a same-color collision.</p>
+
+<h4 id="example-even-cycle-is-bipartite">Example: Even Cycle is Bipartite</h4>
+
+<p>Cycle $C_4$:</p>
+
+<p>Vertices:
+$$
+V = {v_1, v_2, v_3, v_4}
+$$</p>
+
+<p>Edges:
+$$
+(v_1,v_2), (v_2,v_3), (v_3,v_4), (v_4,v_1)
+$$</p>
+
+<p>Partition:
+$$
+V_1 = {v_1, v_3}, \quad V_2 = {v_2, v_4}
+$$</p>
+
+<p>All edges go across the sets — therefore <strong>bipartite</strong>.</p>
+
+<h4 id="understanding-4">Understanding:</h4>
+<p>Even cycles always work because alternating assignments close cleanly.</p>
+
+<h4 id="example-odd-cycle-is-not-bipartite">Example: Odd Cycle is NOT Bipartite</h4>
+
+<p>Cycle $C_3$ (triangle):</p>
+
+<p>Vertices:
+$$
+{a, b, c}
+$$</p>
+
+<p>Edges:
+$$
+(a,b), (b,c), (c,a)
+$$</p>
+
+<p>Try coloring:</p>
+<ul>
+  <li>$a$ → Red</li>
+  <li>$b$ → Blue</li>
+  <li>$c$ → Red</li>
+</ul>
+
+<p>But edge $(c,a)$ connects <strong>Red → Red</strong> → violates bipartite rule.</p>
+
+<h4 id="understanding-5">Understanding:</h4>
+<p>Odd cycles force same-group connections, which bipartite graphs forbid.</p>
+
+<h4 id="algorithmic-test-for-bipartite-graphs-using-bfs">Algorithmic Test for Bipartite Graphs (Using BFS)</h4>
+
+<ol>
+  <li>Pick a starting vertex.</li>
+  <li>Color it Red.</li>
+  <li>Color all neighbors Blue.</li>
+  <li>Continue alternating colors using BFS or DFS.</li>
+  <li>If any edge connects same-colored vertices → graph is <strong>not bipartite</strong>.</li>
+</ol>
+
+<h4 id="understanding-6">Understanding:</h4>
+<p>This works because BFS explores by layers, which naturally match bipartite structure.</p>
+
+<h3 id="real-world-applications">Real World Applications</h3>
+
+<p><strong>Matching Problems (Job Assignments, Dating Apps, College Admissions)</strong></p>
+<ul>
+  <li>One group = people</li>
+  <li>Other group = jobs/schools</li>
+  <li>Edges = possible matches<br>
+This leads directly to <strong>maximum bipartite matching algorithms</strong>.</li>
+</ul>
+
+<p><strong>Scheduling and Resource Allocation</strong></p>
+<ul>
+  <li>One side = tasks</li>
+  <li>Other side = machines/resources<br>
+Ensures no resource conflict.</li>
+</ul>
+
+<p><strong>Computer Networking</strong></p>
+<ul>
+  <li>Client-server architectures naturally form bipartite structures.</li>
+</ul>
+
+<p><strong>Database Relationships</strong></p>
+<ul>
+  <li>Tables linked through foreign keys form bipartite graphs.</li>
+</ul>
+
+<p><strong>Operating Systems</strong></p>
+<ul>
+  <li>Processes vs resources → bipartite graph for deadlock detection.</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<ul>
+  <li>Bipartite graphs split vertices into <strong>two non-overlapping groups</strong>
+</li>
+  <li><strong>No edges within the same group</strong></li>
+  <li><strong>No odd cycles</strong></li>
+  <li>Easily checked using <strong>BFS coloring</strong>
+</li>
+  <li>Extremely important in <strong>matching, scheduling, networking, and OS design</strong>
+</li>
+</ul>
+
+<h5 id="notes--4">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA12%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="weighted-graph">Weighted Graph</h2>
+
+<p>A <strong>weighted graph</strong> is a graph where each edge has an associated numerical value (weight).
+Weights can represent distance, cost, time, or capacity.</p>
+
+<p><strong>Example</strong>
+Vertices: $V = {A, B, C}$
+Edges with weights: $E = {(A,B,2), (B,C,3), (A,C,5)}$</p>
+
+<p><strong>Applications</strong></p>
+<ul>
+  <li>Shortest path algorithms (Dijkstra, Floyd-Warshall)</li>
+  <li>Network routing and traffic optimization</li>
+</ul>
+
+<h5 id="notes--5">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA15%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="adjacency-matrix-1">Adjacency Matrix</h2>
+
+<p>An <strong>adjacency matrix</strong> is a 2D array representing graph connections.</p>
+
+<ul>
+  <li>Row = source vertex</li>
+  <li>Column = target vertex</li>
+  <li>Entry = 1 if an edge exists, 0 otherwise (or weight if weighted)</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>5</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Applications</strong></p>
+<ul>
+  <li>Efficient edge lookup</li>
+  <li>Useful for dense graphs</li>
+</ul>
+
+<h5 id="notes--6">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA15%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="tree">Tree</h2>
+
+<p>A <strong>tree</strong> is a connected, acyclic graph.</p>
+
+<p><strong>Properties</strong></p>
+<ul>
+  <li>Exactly $n-1$ edges for $n$ vertices</li>
+  <li>Unique path between any two vertices</li>
+  <li>At least one leaf (vertex with degree 1)</li>
+</ul>
+
+<p><strong>Example</strong></p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7aW5pdDoge1xuXCJ0aGVtZVwiOiBcImRlZmF1bHRcIixcblwiZmxvd2NoYXJ0XCI6IHsgXCJ1c2VNYXhXaWR0aFwiOiBmYWxzZSB9LFxuXCJ0aGVtZVZhcmlhYmxlc1wiOiB7IFwiZm9udFNpemVcIjogMTIsIFwibm9kZVBhZGRpbmdcIjogNSwgXCJlZGdlTWFyZ2luXCI6IDUgfVxufX0lJVxuZ3JhcGggVERcbkEgLS0-IEJcbkEgLS0-IENcbkMgLS0-IEQiLCJtZXJtYWlkIjpudWxsfQ"></p>
+
+<p><strong>Applications</strong></p>
+<ul>
+  <li>File systems</li>
+  <li>Decision trees</li>
+  <li>Network hierarchies</li>
+</ul>
+
+<h5 id="notes--7">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA15%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="cut-edge">Cut Edge</h2>
+
+<p>A <strong>cut edge</strong> is an edge whose removal <strong>disconnects the graph.</strong></p>
+
+<p><strong>Example</strong>
+<img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7aW5pdDoge1xuXCJ0aGVtZVwiOiBcImRlZmF1bHRcIixcblwiZmxvd2NoYXJ0XCI6IHsgXCJ1c2VNYXhXaWR0aFwiOiBmYWxzZSB9LFxuXCJ0aGVtZVZhcmlhYmxlc1wiOiB7IFwiZm9udFNpemVcIjogMTIsIFwibm9kZVBhZGRpbmdcIjogNSwgXCJlZGdlTWFyZ2luXCI6IDUgfVxufX0lJVxuZ3JhcGggVERcbkEgLS0-IEJcbkIgLS0-IENcbkMgLS0-IERcbkIgLS4tPiBEIiwibWVybWFpZCI6bnVsbH0"></p>
+<ul>
+  <li>Removing edge B-C disconnects the graph → B-C is a cut edge</li>
+</ul>
+
+<p><strong>Applications</strong></p>
+<ul>
+  <li>Network reliability</li>
+  <li>Bridge detection in infrastructure</li>
+</ul>
+
+<h5 id="notes--8">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA15%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="non-cut-edge">Non-Cut Edge</h2>
+
+<p>A <strong>non-cut edge</strong> is an edge whose removal <strong>does not disconnect the graph.</strong></p>
+
+<p><strong>Example</strong></p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7aW5pdDoge1xuXCJ0aGVtZVwiOiBcImRlZmF1bHRcIixcblwiZmxvd2NoYXJ0XCI6IHsgXCJ1c2VNYXhXaWR0aFwiOiBmYWxzZSB9LFxuXCJ0aGVtZVZhcmlhYmxlc1wiOiB7IFwiZm9udFNpemVcIjogMTIsIFwibm9kZVBhZGRpbmdcIjogNSwgXCJlZGdlTWFyZ2luXCI6IDUgfVxufX0lJVxuZ3JhcGggVERcbkEgLS0-IEJcbkIgLS0-IENcbkMgLS0-IEEiLCJtZXJtYWlkIjpudWxsfQ"></p>
+<ul>
+  <li>Removing any edge leaves the graph connected → all are non-cut edges</li>
+</ul>
+
+<p><strong>Applications</strong></p>
+<ul>
+  <li>Redundant connections in networks</li>
+  <li>Ensuring fault tolerance</li>
+</ul>
+
+<h5 id="notes--9">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA15%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="forest">Forest</h2>
+
+<p>A <strong>forest</strong> is a graph with <strong>no cycles</strong>. Equivalently, a forest is a <strong>collection of disjoint trees</strong>.</p>
+
+<h3 id="key-properties">Key Properties</h3>
+<ul>
+  <li>A forest may be <strong>disconnected</strong>
+</li>
+  <li>Each connected component is a <strong>tree</strong>
+</li>
+  <li>If a forest has:
+    <ul>
+      <li>$n$ vertices</li>
+      <li>$k$ connected components<br>
+then it has exactly <strong>$n - k$ edges</strong>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="example">Example</h3>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiJSV7aW5pdDoge1xuXCJ0aGVtZVwiOiBcImRlZmF1bHRcIixcblwiZmxvd2NoYXJ0XCI6IHsgXCJ1c2VNYXhXaWR0aFwiOiBmYWxzZSB9LFxuXCJ0aGVtZVZhcmlhYmxlc1wiOiB7IFwiZm9udFNpemVcIjogMTIsIFwibm9kZVBhZGRpbmdcIjogNSwgXCJlZGdlTWFyZ2luXCI6IDUgfVxufX0lJVxuZ3JhcGggVERcbkEgLS0-IEJcbkIgLS0-IENcbiUlLVxuRCAtLT4gRSIsIm1lcm1haWQiOm51bGx9"></p>
+
+<p>This graph has:</p>
+<ul>
+  <li>5 vertices</li>
+  <li>2 connected components</li>
+  <li>3 edges</li>
+</ul>
+
+<p>So it satisfies
+$|E| = |V| - k = 5 - 2 = 3$</p>
+
+<p><strong>Applications</strong></p>
+<ul>
+  <li>Modeling multiple independent hierarchies</li>
+  <li>Clustering and disjoint-set structures</li>
+  <li>Spanning forests in disconnected graphs</li>
+</ul>
+
+<h5 id="notes--10">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA15%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="graph-theory-foundations">Graph Theory Foundations</h2>
+
+<h3 id="statement-3">Statement</h3>
+
+<p>Every connected graph has a spanning tree.</p>
+
+<h3 id="concept-and-math-3">Concept and Math</h3>
+
+<p>A <strong>spanning tree</strong> is a subgraph that:</p>
+<ul>
+  <li>Includes every vertex</li>
+  <li>Has no cycles</li>
+  <li>Is connected</li>
+</ul>
+
+<p>If a graph is connected, a spanning tree can be constructed using Depth-First Search (DFS) or Breadth-First Search (BFS).</p>
+
+<h3 id="understanding-7">Understanding</h3>
+
+<p>We remove edges while keeping the graph connected. The moment a cycle forms, we remove one edge from the cycle. This continues until no cycles remain.</p>
+
+<h3 id="application-1">Application</h3>
+
+<p>Spanning trees are used in:</p>
+<ul>
+  <li>Network design</li>
+  <li>Circuit wiring</li>
+  <li>Internet routing</li>
+  <li>Minimum infrastructure planning</li>
+</ul>
+
+<hr>
+
+<h2 id="conditional-statements">Conditional Statements</h2>
+
+<p><strong>Definition:</strong><br>
+A <strong>conditional statement</strong> (implication) has the form <strong>“If P, then Q”</strong>, written $ P \rightarrow Q $.<br>
+It is <strong>false only when P is true and Q is false</strong>; in every other case it is true.</p>
+
+<p><strong>Truth Table:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>P</th>
+      <th>Q</th>
+      <th>$P \rightarrow Q$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td><strong>F</strong></td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Key Points:</strong></p>
+<ul>
+  <li>A false hypothesis makes the implication <strong>vacuously true</strong>.</li>
+  <li>The <strong>contrapositive</strong> $ \lnot Q \rightarrow \lnot P $ is always logically equivalent.</li>
+  <li>The <strong>converse</strong> and <strong>inverse</strong> are <em>not</em> logically equivalent to the original statement.</li>
+</ul>
+
+<p><strong>Example:</strong><br>
+“If a number is divisible by 6, then it is even.”</p>
+
+<p><strong>Applications:</strong><br>
+Logical reasoning, proofs, algorithm correctness, and digital logic design.</p>
+
+<h5 id="notes--11">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA17%EF%80%BA25%20-%20Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="kruskals-algorithm">Kruskal’s Algorithm</h2>
+
+<p><strong>Purpose:</strong><br>
+Find a <strong>Minimum Spanning Tree (MST)</strong> of a weighted, undirected graph by adding the <em>lightest edges first</em>.</p>
+
+<p><strong>How It Works:</strong></p>
+<ol>
+  <li>Sort all edges in <strong>non-decreasing weight order</strong>.</li>
+  <li>Create an empty forest (each vertex is its own component).</li>
+  <li>Repeatedly add the next lightest edge <strong>that does not form a cycle</strong> (use Union-Find / DSU).</li>
+  <li>Stop when the MST has $ n - 1 $ edges.</li>
+</ol>
+
+<p><strong>Key Properties:</strong></p>
+<ul>
+  <li>Greedy algorithm.</li>
+  <li>Uses <strong>disjoint set union</strong> to detect cycles efficiently.</li>
+  <li>Works well for <strong>sparse graphs</strong>.</li>
+</ul>
+
+<p><strong>Runtime:</strong><br>
+$ O(E \log E) $ due to sorting.</p>
+
+<p><strong>Applications:</strong><br>
+Network design, clustering, cable/road layout, approximation algorithms.</p>
+
+<h5 id="notes--12">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA24%EF%80%BA25.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="dijkstras-algorithm-djp">Dijkstra’s Algorithm (DJP)</h2>
+
+<p><strong>Purpose:</strong><br>
+Compute the <strong>shortest path from a source vertex</strong> to all other vertices in a weighted graph with <strong>non-negative edge weights</strong>.</p>
+
+<p><strong>How It Works:</strong></p>
+<ol>
+  <li>Initialize distances: <code class="language-plaintext highlighter-rouge">dist[source] = 0</code>, all others = infinity.</li>
+  <li>Insert all vertices into a <strong>priority queue</strong> (min-heap).</li>
+  <li>Repeatedly extract the vertex <code class="language-plaintext highlighter-rouge">u</code> with the smallest tentative distance.</li>
+  <li>For each neighbor <code class="language-plaintext highlighter-rouge">v</code>, relax the edge:<br>
+$$
+\text{if } \text{dist}[u] + w(u,v) &lt; \text{dist}[v], \text{ update dist}[v]
+$$</li>
+  <li>Continue until all vertices are processed.</li>
+</ol>
+
+<p><strong>Key Properties:</strong></p>
+<ul>
+  <li>Greedy algorithm.</li>
+  <li>Requires <strong>non-negative weights</strong> (fails with negatives).</li>
+  <li>Typically implemented with a <strong>binary heap</strong>.</li>
+</ul>
+
+<p><strong>Runtime:</strong></p>
+<ul>
+  <li>$ O(E \log V) $ with a min-heap.</li>
+  <li>$ O(V^2) $ with adjacency matrix.</li>
+</ul>
+
+<p><strong>Applications:</strong><br>
+GPS routing, internet packet routing, games (pathfinding), network optimization.</p>
+
+<h5 id="notes--13">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA24%EF%80%BA25.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="maximal-graph">Maximal Graph</h2>
+
+<p>A <strong>maximal graph (with respect to a property)</strong> is a graph that <strong>cannot have any additional edges added without losing that property</strong>.</p>
+
+<ul>
+  <li>Maximal <strong>acyclic graph</strong> = a <strong>tree</strong> (or forest if disconnected).</li>
+  <li>Maximal <strong>planar graph</strong> = adding any edge makes it non-planar.</li>
+  <li>Maximal means “can’t add more edges,” <strong>not</strong> “has the most edges overall**.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Maximal = edge-addition would break the property.</p>
+</blockquote>
+
+<h5 id="notes--14">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA26%EF%80%BA25.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="minimal-graph">Minimal Graph</h2>
+
+<p>A <strong>minimal graph (with respect to a property)</strong> is a graph where <strong>removing any edge destroys that property</strong>.</p>
+
+<ul>
+  <li>Minimal <strong>connected graph</strong> = a <strong>tree</strong> (remove an edge → disconnected).</li>
+  <li>Minimal <strong>2-connected graph</strong> = removing any edge makes it only 1-connected.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Minimal = edge-removal breaks the property.</p>
+</blockquote>
+
+<h5 id="notes--15">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA26%EF%80%BA25.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<p>These ideas show how graphs sit on the “boundary” of a property:</p>
+<ul>
+  <li>
+<strong>Maximal</strong> → can’t add edges</li>
+  <li>
+<strong>Minimal</strong> → can’t remove edges</li>
+</ul>
+
+<h5 id="notes--16">
+<a href="/MTH-325-Wells-Portfolio/notes/9%EF%80%BA26%EF%80%BA25.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="strongly-connected-directed-graphs">Strongly Connected (Directed Graphs)</h2>
+
+<p>A directed graph $D$ is <strong>strongly connected</strong> if <strong>every vertex can reach every other vertex by a directed path</strong>.</p>
+
+<ul>
+  <li>For all vertices $u, v$: there exists a path $u \rightarrow v$ <strong>and</strong> $v \rightarrow u$.</li>
+  <li>Strong connectivity means full two-way reachability.</li>
+  <li>Strongly connected components (SCCs) are maximal subgraphs that satisfy this.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Direction matters, and you must be able to travel both ways.</p>
+</blockquote>
+
+<h5 id="notes--17">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA6%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="weakly-connected-directed-graphs">Weakly Connected (Directed Graphs)</h2>
+
+<p>A directed graph $D$ is <strong>weakly connected</strong> if, when you <strong>ignore edge directions</strong>, the underlying undirected graph is connected.</p>
+
+<ul>
+  <li>Treated as an undirected graph → all vertices are still connected.</li>
+  <li>Does <em>not</em> require directed paths.</li>
+  <li>A strongly connected graph is always weakly connected, but not the reverse.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Connected when directions are removed, but not necessarily with directed paths.</p>
+</blockquote>
+
+<h5 id="notes--18">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA6%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="reflexive-relations">Reflexive Relations</h2>
+<p>A relation $R$ on a set $A$ is <strong>reflexive</strong> if every element relates to itself.</p>
+<ul>
+  <li>For all $a \in A$, $(a, a) \in R$.</li>
+  <li>Example: equality $=$ is reflexive.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Everyone points to themselves.</p>
+</blockquote>
+
+<h5 id="notes--19">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="irreflexive-antireflexive-relations">Irreflexive (Antireflexive) Relations</h2>
+<p>A relation $R$ on a set $A$ is <strong>irreflexive</strong> if no element relates to itself.</p>
+<ul>
+  <li>For all $a \in A$, $(a, a) \notin R$.</li>
+  <li>Example: the “less than” relation $&lt;$.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Nobody points to themselves.</p>
+</blockquote>
+
+<h5 id="notes--20">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="symmetric-relations">Symmetric Relations</h2>
+<p>A relation $R$ is <strong>symmetric</strong> if every connection works both ways.</p>
+<ul>
+  <li>If $(a, b) \in R$, then $(b, a) \in R$.</li>
+  <li>Example: “is a sibling of.”</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>If you relate to me, I relate to you.</p>
+</blockquote>
+
+<h5 id="notes--21">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="antisymmetric-relations">Antisymmetric Relations</h2>
+<p>A relation $R$ is <strong>antisymmetric</strong> if the only way both $(a, b)$ and $(b, a)$ can be in $R$ is if $a = b$.</p>
+<ul>
+  <li>Allows one-directional connections but forbids two-way unless identical.</li>
+  <li>Example: “less than or equal” $\le$.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Two-way relations only happen when the elements are the same.</p>
+</blockquote>
+
+<h5 id="notes--22">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="transitive-relations">Transitive Relations</h2>
+<p>A relation $R$ is <strong>transitive</strong> if it passes connections along.</p>
+<ul>
+  <li>If $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$.</li>
+  <li>Example: “is an ancestor of.”</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>If A relates to B and B to C, then A must relate to C.</p>
+</blockquote>
+
+<h5 id="notes--23">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="equivalence-relations">Equivalence Relations</h2>
+<p>A relation is an <strong>equivalence relation</strong> if it is:</p>
+<ol>
+  <li>Reflexive</li>
+  <li>Symmetric</li>
+  <li>Transitive</li>
+</ol>
+
+<p>These relations group elements into “equivalent” categories.</p>
+<ul>
+  <li>Example: congruence modulo $n$.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Behaves like an equality test that might group many distinct items together.</p>
+</blockquote>
+
+<h5 id="notes--24">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="partitions">Partitions</h2>
+<p>A <strong>partition</strong> of a set $A$ is a collection of <strong>non-overlapping</strong>, <strong>non-empty</strong> subsets whose union is all of $A$.</p>
+
+<ul>
+  <li>Every element is in exactly one block.</li>
+  <li>Every equivalence relation corresponds to a unique partition, and vice versa.</li>
+</ul>
+
+<p><strong>Key idea:</strong></p>
+<blockquote>
+  <p>Break the set into disjoint groups where each element belongs to one and only one group.</p>
+</blockquote>
+
+<h5 id="notes--25">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA22%EF%80%BA25-Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="hierholzers-algorithm">Hierholzer’s Algorithm</h2>
+
+<p><strong>Purpose:</strong><br>
+Hierholzer’s Algorithm is used to find an <strong>Euler circuit</strong> (a cycle that uses every edge exactly once) in a graph where <strong>every vertex has even degree</strong> and the graph is connected.</p>
+
+<h3 id="key-idea">Key Idea</h3>
+<p>Instead of trying to build the entire Euler circuit at once, the algorithm constructs <strong>small cycles</strong> and then <strong>merges</strong> them together.</p>
+
+<h3 id="how-the-algorithm-works">How the Algorithm Works</h3>
+<ol>
+  <li>
+<strong>Start at any vertex</strong> in the graph.</li>
+  <li>
+<strong>Follow unused edges</strong>, forming a cycle, until returning to the start vertex.
+    <ul>
+      <li>You will never get stuck early because all degrees are even.</li>
+    </ul>
+  </li>
+  <li>If <strong>unused edges remain</strong>, choose a vertex on the current cycle that has unused edges.</li>
+  <li>Build a <strong>new cycle</strong> from that vertex and merge it into the existing one.</li>
+  <li>Continue until <strong>all edges have been used</strong>.</li>
+</ol>
+
+<h3 id="why-it-works">Why It Works</h3>
+<ul>
+  <li>Even degrees guarantee every time you enter a vertex, you can leave it using another unused edge.</li>
+  <li>Merging cycles preserves edge usage and ensures no edge is skipped.</li>
+</ul>
+
+<h3 id="output">Output</h3>
+<p>A complete Euler circuit that uses every edge exactly once.</p>
+
+<h3 id="applications-1">Applications</h3>
+<ul>
+  <li>Route optimization (postal routing, garbage collection).</li>
+  <li>DNA sequencing reconstruction.</li>
+  <li>Network traversal and circuit design.</li>
+</ul>
+
+<h5 id="notes--26">
+<a href="/MTH-325-Wells-Portfolio/notes/10%EF%80%BA29%EF%80%BA25%20-%20Wells.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="dijkstras-algorithm">Dijkstra’s Algorithm</h2>
+
+<p><strong>Purpose:</strong><br>
+Dijkstra’s Algorithm finds the <strong>shortest path</strong> from a starting vertex to all other vertices in a <strong>weighted graph with non-negative edge weights</strong>.</p>
+
+<h3 id="key-idea-1">Key Idea</h3>
+<p>It expands outward from the start vertex, always choosing the <strong>closest unvisited vertex</strong> next, guaranteeing minimal distances.</p>
+
+<h3 id="how-it-works">How It Works</h3>
+<ol>
+  <li>Assign distance 0 to the start vertex and ∞ to all others.</li>
+  <li>Mark all vertices unvisited.</li>
+  <li>Select the unvisited vertex with the <strong>smallest tentative distance</strong>.</li>
+  <li>Update the distances of its neighbors using relaxation.</li>
+  <li>Mark the selected vertex as visited.</li>
+  <li>Repeat until all vertices are processed.</li>
+</ol>
+
+<h3 id="output-1">Output</h3>
+<ul>
+  <li>A shortest-path tree rooted at the starting vertex.</li>
+  <li>The shortest distance to each vertex.</li>
+</ul>
+
+<h3 id="applications-2">Applications</h3>
+<ul>
+  <li>GPS routing.</li>
+  <li>Network packet routing.</li>
+  <li>Pathfinding in games (A*, navigation grids).</li>
+</ul>
+
+<h5 id="notes-1-notes-2--">
+<a href="/MTH-325-Wells-Portfolio/notes/11%EF%80%BA3%EF%80%BA25-Wells.png">Notes #1</a> <a href="/MTH-325-Wells-Portfolio/notes/11%EF%80%BA5%EF%80%BA25.png">Notes #2</a>  <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="hamilton-cycles-and-paths">Hamilton Cycles and Paths</h2>
+
+<p><strong>Definition:</strong></p>
+<ul>
+  <li>A <strong>Hamiltonian cycle</strong> is a Hamiltonian path that <strong>returns to the starting vertex</strong>, forming a closed loop.</li>
+  <li>A <strong>Hamiltonian path</strong> is a path in a graph that visits <strong>every vertex exactly once</strong>.</li>
+</ul>
+
+<h3 id="key-facts">Key Facts</h3>
+<ul>
+  <li>Hamiltonian cycles and paths exist in both directed and undirected graphs.</li>
+  <li>Determining existence is <strong>NP-complete</strong>.</li>
+  <li>Not every graph with a Hamiltonian path has a Hamiltonian cycle.</li>
+  <li>Sufficient conditions for a Hamiltonian cycle exist (e.g., Dirac’s and Ore’s theorems).</li>
+</ul>
+
+<h3 id="applications-3">Applications</h3>
+<ul>
+  <li>Traveling Salesman Problem (TSP).</li>
+  <li>Scheduling problems.</li>
+  <li>Circuit layout design.</li>
+  <li>Genome assembly and computational biology.</li>
+</ul>
+
+<h5 id="notes-1-notes-2-">
+<a href="/MTH-325-Wells-Portfolio/notes/11%EF%80%BA5%EF%80%BA25.png">Notes #1</a> <a href="/MTH-325-Wells-Portfolio/notes/11%EF%80%BA7%EF%80%BA25%20-%20Hamilton%20Cycle.png">Notes #2</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="planar-graphs">Planar Graphs</h2>
+
+<p><strong>Definition:</strong><br>
+A <strong>planar graph</strong> is a graph that can be drawn on a plane <strong>without any edges crossing</strong>.</p>
+
+<h3 id="key-facts-1">Key Facts</h3>
+<ul>
+  <li>Euler’s formula for connected planar graphs:<br>
+$$ V - E + F = 2 $$<br>
+where $V$ = number of vertices, $E$ = number of edges, $F$ = number of faces.</li>
+  <li>Kuratowski’s theorem: A graph is non-planar if it contains a subgraph that is a subdivision of <strong>K₅</strong> or <strong>K₃,₃</strong>.</li>
+  <li>Max edges in a planar simple graph: $E \le 3V - 6$ for $V \ge 3$.</li>
+</ul>
+
+<h3 id="applications-4">Applications</h3>
+<ul>
+  <li>Circuit design and PCB layout.</li>
+  <li>Geographic mapping (no overlapping roads).</li>
+  <li>Network visualization and graph drawing algorithms.</li>
+</ul>
+
+<h5 id="notes--27">
+<a href="/MTH-325-Wells-Portfolio/notes/11%EF%80%BA14%EF%80%BA25-Planar%20Graph.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="max-cut-problem">Max-Cut Problem</h2>
+
+<p><strong>Definition:</strong><br>
+The <strong>Max-Cut problem</strong> is to partition the vertices of a graph $G = (V, E)$ into two disjoint subsets $S$ and $V \setminus S$ such that the <strong>number (or total weight) of edges between the subsets is maximized</strong>.</p>
+
+<hr>
+
+<h3 id="key-facts-2">Key Facts</h3>
+<ul>
+  <li>Max-Cut is an <strong>NP-hard problem</strong>.</li>
+  <li>Exact solutions are computationally expensive for large graphs.</li>
+  <li>Approximation algorithms exist:
+    <ul>
+      <li>
+<strong>Goemans-Williamson algorithm</strong>: uses semidefinite programming, guarantees at least ~0.878 of optimal.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<h3 id="applications-5">Applications</h3>
+<ul>
+  <li>VLSI design (minimizing connections inside modules).</li>
+  <li>Statistical physics (Ising model).</li>
+  <li>Network clustering and community detection.</li>
+</ul>
+
+<h5 id="notes--28">
+<a href="/MTH-325-Wells-Portfolio/notes/11%EF%80%BA19%EF%80%BA25-maxCut.png">Notes</a> <!-- omit in toc -->
+</h5>
+
+<hr>
+
+<h2 id="proofs-by-type">Proofs by Type</h2>
+
+<p>Each proof includes a <strong>statement, proof steps, explanation, and application.</strong></p>
+
+<hr>
+
+<h3 id="direct-proof">Direct Proof</h3>
+
+<p><strong>Statement:</strong> The sum of two even numbers is even.</p>
+
+<p><strong>Proof:</strong>
+Let a = 2k and b = 2m. Then:</p>
+
+<p>a + b = 2k + 2m = 2(k + m)</p>
+
+<p>Which is divisible by 2, so it is even.</p>
+
+<p><strong>Understanding:</strong> We directly use the definition of even.</p>
+
+<p><strong>Application:</strong> Used constantly in algorithm correctness proofs.</p>
+
+<hr>
+
+<h3 id="proof-by-contradiction">Proof by Contradiction</h3>
+
+<p><strong>Statement:</strong> There is no largest prime number.</p>
+
+<p><strong>Idea:</strong> Assume the opposite is true, construct a contradiction.</p>
+
+<p><strong>Application:</strong> Used in security and cryptography.</p>
+
+<hr>
+
+<h3 id="proof-by-contrapositive">Proof by Contrapositive</h3>
+
+<p><strong>Statement:</strong> If n² is even, then n is even.</p>
+
+<p><strong>Contrapositive:</strong> If n is odd, then n² is odd.</p>
+
+<p><strong>Application:</strong> Logic circuit design and optimization.</p>
+
+<hr>
+
+<h3 id="proof-by-strong-induction">Proof by Strong Induction</h3>
+
+<p><strong>Statement:</strong> Every integer n ≥ 2 can be written as a product of primes.</p>
+
+<p><strong>Application:</strong> Used in number theory and cryptographic security.</p>
+
+<hr>
+
+<h3 id="constructive-proof">Constructive Proof</h3>
+
+<p><strong>Statement:</strong> If a graph $G$ has minimum degree $𝛿(G) ≥ 2$, then $G$ contains a cycle.</p>
+
+<p><strong>Constructive Idea:</strong> Start at any vertex and walk along unused edges, always choosing a new edge when possible.
+Because every vertex has degree at least 2, this walk cannot get stuck unless it revisits a previous vertex—at which point a cycle is formed.</p>
+
+<p><strong>Construction:</strong></p>
+<ol>
+  <li>Begin at any vertex $v_0$.</li>
+  <li>Repeatedly move to a neighbor you have not yet arrived from, forming a path $v_0, v_1,…,v_k$.</li>
+  <li>Since each vertex has ≥2 neighbors, the endpoint $v_k$ must have a neighbor in the previously visited part of the path.</li>
+  <li>The edge connecting $v_k$ to an earlier vertex closes a cycle.</li>
+</ol>
+
+<p>This procedure <strong>explicitly constructs</strong> a cycle.</p>
+
+<p><strong>Application:</strong> Cycle-detection algorithms, graph traversal routines, and routing systems that rely on guaranteed loop formation.</p>
+
+<hr>
+
+<h2 id="proofs"><strong>Proofs</strong></h2>
+
+<p>Proving conjectures.</p>
+
+<hr>
+
+<h2 id="1-direct--graph-with-degree-2-is-a-cycle">1. Direct — Graph with Degree 2 is a Cycle</h2>
+
+<h3 id="statement-4">Statement</h3>
+<p>If $G$ is a connected graph and $\Delta(G) = \delta(G) = 2$, then $G$ is a cycle.</p>
+
+<h3 id="proof-steps">Proof Steps</h3>
+<ol>
+  <li>
+<strong>Given:</strong> Every vertex $v \in V(G)$ has exactly 2 neighbors.
+    <ul>
+      <li>Degree 2 ensures no branching at any vertex.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Select a starting vertex</strong> $v_0$.
+    <ul>
+      <li>Choice is arbitrary; the argument works from any vertex.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Traverse along neighbors</strong>: go to an unvisited neighbor, continue walking through the graph.
+    <ul>
+      <li>Each vertex has exactly one unvisited edge forward due to degree 2.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Finiteness ensures repetition:</strong> Eventually, a vertex repeats, because the graph is finite.
+    <ul>
+      <li>Repetition creates a loop, which is the cycle.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Connectivity ensures all vertices are included</strong>, forming a single cycle.
+    <ul>
+      <li>Without connectivity, traversal might not cover all vertices.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="application-2">Application</h3>
+<ul>
+  <li>Ring network topologies in computer networks</li>
+  <li>Cyclic molecular structures in chemistry</li>
+  <li>Fault detection in circuits and loop-based processes</li>
+</ul>
+
+<hr>
+
+<h2 id="2-contrapositive--non-cut-edge-implies-multiple-paths">2. Contrapositive — Non-Cut Edge Implies Multiple Paths</h2>
+
+<h3 id="statement-5">Statement</h3>
+<p>If an edge $(u,v)$ is not a cut edge in a connected graph $G$, then there is more than one path between $u$ and $v$.</p>
+
+<h3 id="proof-steps-1">Proof Steps</h3>
+<ol>
+  <li>
+<strong>Assume the contrapositive:</strong> There is exactly one path $P$ between $u$ and $v$.
+    <ul>
+      <li>Proving the contrapositive often simplifies reasoning.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Take any edge</strong> $e$ on path $P$.
+    <ul>
+      <li>Every edge on the unique path is necessary for connectivity.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Remove $e$ from the graph.</strong>
+    <ul>
+      <li>Removal tests whether $e$ is critical to connectivity.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Observe:</strong> $u$ and $v$ become disconnected.
+    <ul>
+      <li>This shows $e$ is a cut edge.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Conclude:</strong> By contrapositive logic, if an edge is not a cut edge, there must be more than one path connecting its endpoints.</li>
+</ol>
+
+<h3 id="application-3">Application</h3>
+<ul>
+  <li>Network redundancy analysis</li>
+  <li>Identifying critical bridges in infrastructure</li>
+  <li>Algorithms for bridge detection in graphs</li>
+</ul>
+
+<hr>
+
+<h2 id="3-contradiction--every-tree-has-leaves">3. Contradiction — Every Tree Has Leaves</h2>
+
+<h3 id="statement-6">Statement</h3>
+<p>Every tree with 2 or more vertices has at least one leaf.</p>
+
+<h3 id="proof-steps-2">Proof Steps</h3>
+<ol>
+  <li>
+<strong>Assume the contrary:</strong> Tree $T$ has ≥2 vertices and no leaves (all degrees ≥2).
+    <ul>
+      <li>Contradiction begins by assuming the opposite.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Pick any vertex</strong> $v_0$.
+    <ul>
+      <li>Starting point is arbitrary.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Construct a path</strong> from $v_0$, always moving to an unvisited neighbor.
+    <ul>
+      <li>Degree ≥2 guarantees an unused edge at each vertex.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Finiteness implies repetition:</strong> Eventually a vertex repeats.
+    <ul>
+      <li>Repetition forms a cycle.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Contradiction:</strong> Trees are acyclic; therefore, assumption is false. Tree must have a leaf.
+    <ul>
+      <li>Logic relies on properties of trees (acyclic, connected).</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="application-4">Application</h3>
+<ul>
+  <li>File systems: leaf nodes represent files</li>
+  <li>Decision trees: leaves represent outcomes</li>
+  <li>Data structures: leaves mark endpoints in recursion</li>
+</ul>
+
+<hr>
+
+<h2 id="4-induction--tree-with-n-vertices-has-n1-edges">4. Induction — Tree with n Vertices Has n−1 Edges</h2>
+
+<h3 id="statement-7">Statement</h3>
+<p>If $T$ is a tree with $n$ vertices, then it has $n-1$ edges.</p>
+
+<h3 id="proof-steps-3">Proof Steps</h3>
+<ol>
+  <li>
+<strong>Base Case $n=1$:</strong> One vertex, 0 edges.
+    <ul>
+      <li>Base case validates induction start.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Inductive Hypothesis:</strong> Assume all trees with $k$ vertices have $k-1$ edges.
+    <ul>
+      <li>IH is the foundation for step from $k$ to $k+1$.</li>
+    </ul>
+  </li>
+  <li><strong>Consider tree with $k+1$ vertices.</strong></li>
+  <li>
+<strong>Remove a leaf vertex $v$ and its edge:</strong> Remaining tree has $k$ vertices.
+    <ul>
+      <li>Removing a leaf preserves tree properties: connected and acyclic.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Apply IH:</strong> Remaining tree has $k-1$ edges.</li>
+  <li>
+<strong>Add back removed edge:</strong> Total edges = $k$, which equals $(k+1)-1$.
+    <ul>
+      <li>Induction step complete.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Conclusion:</strong> Holds for all $n\ge1$.</li>
+</ol>
+
+<h3 id="application-5">Application</h3>
+<ul>
+  <li>Spanning trees in networks</li>
+  <li>Minimum connections in infrastructure</li>
+  <li>BFS/DFS traversals in tree data structures</li>
+</ul>
+
+<hr>
+
+<h2 id="5-constructive--euler-circuit-in-even-degree-connected-graph">5. Constructive — Euler Circuit in Even-Degree Connected Graph</h2>
+
+<h3 id="statement-8">Statement</h3>
+
+<p>If a connected graph $G$ has all vertices of even degree, then $G$ has an Euler circuit.</p>
+
+<h3 id="proof-steps-4">Proof Steps</h3>
+<ol>
+  <li>
+<strong>Select starting vertex</strong> $v_0$.
+    <ul>
+      <li>Starting vertex does not affect existence of circuit.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Traverse edges one at a time</strong>, marking them as used.
+    <ul>
+      <li>Edge marking ensures each edge is visited exactly once.</li>
+    </ul>
+  </li>
+  <li>
+<strong>At each vertex $v$:</strong> There is always an unused edge to leave $v$.
+    <ul>
+      <li>Even degree ensures entry=exit; we never get stuck.</li>
+    </ul>
+  </li>
+  <li><strong>Continue traversal until returning to $v_0$.</strong></li>
+  <li>
+<strong>Check for unused edges:</strong> If any exist, start a new trail from a vertex on the circuit with unused edges and merge.
+    <ul>
+      <li>Ensures complete coverage of all edges.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Result:</strong> Euler circuit exists covering all edges exactly once.</li>
+</ol>
+
+<h3 id="application-6">Application</h3>
+<ul>
+  <li>Route optimization: mail delivery, garbage collection</li>
+  <li>Network traversal algorithms</li>
+  <li>Circuit design and PCB trace coverage</li>
+</ul>
+
+<hr>
+
+<h2 id="6-contradiction---every-tree-has-exactly-one-path-between-two-vertices">6. Contradiction - Every Tree Has Exactly One Path Between Two Vertices</h2>
+
+<h3 id="statement-9">Statement</h3>
+<p>In any tree $T$, for any two vertices $u$ and $v$, there is <strong>exactly one simple path</strong> connecting $u$ and $v$.</p>
+
+<h3 id="proof">Proof</h3>
+<ol>
+  <li>
+    <p><strong>Existence:</strong><br>
+Trees are connected by definition, so at least one path exists between $u$ and $v$.</p>
+  </li>
+  <li>
+    <p><strong>Uniqueness:</strong><br>
+Suppose there exist two distinct simple paths $P_1$ and $P_2$ between $u$ and $v$. Let $w$ be the first vertex along $P_1$ where the paths diverge. Then $P_1 \cup P_2$ contains a cycle through $w$, contradicting the acyclic property of trees.</p>
+  </li>
+  <li>
+    <p><strong>Conclusion:</strong><br>
+Therefore, there is exactly one simple path between any two vertices in a tree.</p>
+  </li>
+</ol>
+
+<h3 id="explanation">Explanation</h3>
+<ul>
+  <li>Trees are connected and acyclic.</li>
+  <li>Any two distinct paths would create a cycle, which is impossible in a tree.</li>
+</ul>
+
+<h3 id="application-7">Application</h3>
+<ul>
+  <li>Ensures uniqueness of routes in network trees.</li>
+  <li>Useful in decision trees and hierarchical data structures.</li>
+</ul>
+
+<hr>
+
+<h2 id="7-contradiction---every-tree-has-leaves">7. Contradiction - Every Tree Has Leaves</h2>
+
+<h3 id="statement-10">Statement</h3>
+<p>Every tree with 2 or more vertices has at least one leaf (a vertex of degree 1).</p>
+
+<h3 id="proof-1">Proof</h3>
+<ol>
+  <li>
+    <p><strong>Assume the contrary:</strong> Suppose all vertices in tree $T$ have degree ≥ 2.</p>
+  </li>
+  <li>
+    <p><strong>Construct a maximal path:</strong> Pick any vertex $v_0$ and traverse through unvisited neighbors until no further extension is possible. Let $v_k$ be the endpoint.</p>
+  </li>
+  <li>
+    <p><strong>Contradiction:</strong> Since every vertex has degree ≥ 2, $v_k$ must have an unvisited neighbor to continue, contradicting the maximality of the path.</p>
+  </li>
+  <li>
+    <p><strong>Conclusion:</strong> There must exist at least one vertex of degree 1 (a leaf).</p>
+  </li>
+</ol>
+
+<h3 id="explanation-1">Explanation</h3>
+<ul>
+  <li>Maximal paths in trees must terminate at leaves.</li>
+  <li>Ensures that traversal and induction arguments on trees work correctly.</li>
+</ul>
+
+<h3 id="application-8">Application</h3>
+<ul>
+  <li>File system hierarchies, decision trees, and endpoint detection in data structures.</li>
+</ul>
+
+<hr>
+
+<h2 id="8-direct---if-δg--2-then-g-contains-a-cycle">8. Direct - If δ(G) ≥ 2 Then G Contains a Cycle</h2>
+
+<h3 id="statement-11">Statement</h3>
+<p>Let $G$ be a finite graph. If every vertex has degree at least 2 ($\delta(G) \ge 2$), then $G$ contains at least one cycle.</p>
+
+<h3 id="proof-2">Proof</h3>
+<ol>
+  <li>
+    <p>Pick any vertex $v$ and construct a <strong>maximal path</strong> $v_0, v_1, …, v_k$ such that each edge is visited only once.</p>
+  </li>
+  <li>
+    <p>Since $\delta(G) \ge 2$, the endpoint $v_k$ has at least two neighbors. At least one neighbor $u$ is already in the path (otherwise the path could be extended, contradicting maximality).</p>
+  </li>
+  <li>
+    <p>The edge from $v_k$ to $u$ forms a <strong>cycle</strong>.</p>
+  </li>
+  <li>
+    <p>Conclusion: $G$ contains a cycle.</p>
+  </li>
+</ol>
+
+<h3 id="explanation-2">Explanation</h3>
+<ul>
+  <li>The degree condition guarantees that maximal paths cannot terminate without forming a loop.</li>
+  <li>This is constructive: you can find the cycle by following paths until a repeated vertex is reached.</li>
+</ul>
+
+<h3 id="application-9">Application</h3>
+<ul>
+  <li>Detecting loops in networks or circuits.</li>
+  <li>Algorithm design for cycle detection.</li>
+</ul>
+
+<hr>
+
+<h2 id="9-direct---if-abse--n-then-g-has-a-cycle">9. Direct - If abs(E) ≥ n Then G Has a Cycle</h2>
+
+<h3 id="statement-12">Statement</h3>
+<p>Let $G=(V,E)$ be a graph with $n$ vertices. If $|E| \ge n$, then $G$ contains at least one cycle.</p>
+
+<h3 id="proof-3">Proof</h3>
+<ol>
+  <li>
+    <p>Consider a spanning forest $F$ of $G$. A forest with $n$ vertices has at most $n-1$ edges.</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>If $</td>
+          <td>E</td>
+          <td>\ge n$, then $</td>
+          <td>E</td>
+          <td>
+<blockquote>
+
+</blockquote>
+</td>
+          <td>F</td>
+          <td>$.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>Adding an edge to a forest always creates a cycle.</p>
+  </li>
+  <li>Conclusion: $G$ contains a cycle.</li>
+</ol>
+
+<h3 id="explanation-3">Explanation</h3>
+<ul>
+  <li>Uses the property that forests are acyclic with maximum $n-1$ edges.</li>
+  <li>Any additional edge necessarily closes a loop.</li>
+</ul>
+
+<h3 id="application-10">Application</h3>
+<ul>
+  <li>Edge counting for cycle detection.</li>
+  <li>Structural analysis of networks.</li>
+</ul>
+
+<hr>
+
+<h2 id="10-constructive---euler-circuit-in-even-degree-connected-graph">10. Constructive - Euler Circuit in Even-Degree Connected Graph</h2>
+
+<h3 id="statement-13">Statement</h3>
+<p>If an undirected connected graph $G$ has <strong>all vertices of even degree</strong>, then $G$ has an <strong>Euler circuit</strong> (a cycle using every edge exactly once).</p>
+
+<h3 id="proof-constructive">Proof (Constructive)</h3>
+<ol>
+  <li>
+    <p>Pick any vertex $v_0$. Start walking along edges, never repeating an edge, until returning to $v_0$.</p>
+  </li>
+  <li>
+    <p>Every time you enter a vertex, there is an unused edge to leave it (even degree property).</p>
+  </li>
+  <li>
+    <p>If some edges remain unused, start a new walk from a vertex on the circuit that still has unused edges and merge the new walk into the existing circuit.</p>
+  </li>
+  <li>
+    <p>Continue until all edges are used.</p>
+  </li>
+  <li>
+    <p>Conclusion: This forms an Euler circuit.</p>
+  </li>
+</ol>
+
+<h3 id="explanation-4">Explanation</h3>
+<ul>
+  <li>The even-degree condition guarantees you never get stuck in the middle of a traversal.</li>
+  <li>This is the <strong>Hierholzer’s algorithm</strong> for finding Euler circuits.</li>
+</ul>
+
+<h3 id="application-11">Application</h3>
+<ul>
+  <li>Routing problems (mail delivery, garbage collection).</li>
+  <li>Network traversal and graph-based puzzles.</li>
+</ul>
+
+<hr>
+
+<h2 id="algorithms-with-code">Algorithms with Code</h2>
+
+<p>Each algorithm has:</p>
+<ul>
+  <li>Statement</li>
+  <li>Python file</li>
+  <li>Code</li>
+  <li>Explanation</li>
+  <li>Application</li>
+</ul>
+
+<hr>
+
+<h3 id="hakimihavel-algorithm-1">Hakimi–Havel Algorithm</h3>
+
+<p><strong>Purpose:</strong> Determines if a degree sequence corresponds to a simple graph.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/hakimi-havel.py"><code class="language-plaintext highlighter-rouge">hakimi_havel.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1"># Hakimi-Havel step
+</span><span class="k">def</span> <span class="nf">hakimi_havel</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
+    <span class="c1"># Sort the sequence in non-increasing order
+</span>    <span class="n">seq</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">rest</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+
+    <span class="c1"># A node cannot connect to more nodes than are available
+</span>    <span class="k">if</span> <span class="n">d</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">rest</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">None</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
+        <span class="n">rest</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">1</span>
+
+        <span class="c1"># If any degree is negative, the sequence is not graphic
+</span>        <span class="k">if</span> <span class="n">rest</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">None</span>
+
+    <span class="c1"># Return the new sequence for the next iteration without the first element
+</span>    <span class="k">return</span> <span class="n">rest</span>
+
+
+<span class="k">def</span> <span class="nf">is_graph</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
+    <span class="c1"># Continue as long as there are positive degrees
+</span>    <span class="k">while</span> <span class="nb">any</span><span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">seq</span><span class="p">):</span>
+        <span class="c1"># Apply reduction step
+</span>        <span class="n">seq</span> <span class="o">=</span> <span class="n">hakimi_havel</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
+
+        <span class="c1"># If returns None, a non-graphic condition was met
+</span>        <span class="k">if</span> <span class="n">seq</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">False</span>
+        
+    <span class="k">return</span> <span class="bp">True</span>
+
+
+<span class="k">print</span><span class="p">(</span><span class="n">is_graph</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">]))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> Network feasibility testing.</p>
+
+<hr>
+
+<h3 id="dijkstras-algorithm-1">Dijkstra’s Algorithm</h3>
+
+<p><strong>Purpose:</strong> Finds shortest paths from a source.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/dijkstra.py"><code class="language-plaintext highlighter-rouge">dijkstra.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">heapq</span>
+
+<span class="k">def</span> <span class="nf">dijkstra</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">start</span><span class="p">):</span>
+    <span class="c1"># Init
+</span>    <span class="n">dist</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">}</span>
+    <span class="n">dist</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="c1"># Priority queue
+</span>    <span class="n">pq</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">0</span><span class="p">,</span> <span class="n">start</span><span class="p">)]</span>
+
+    <span class="c1"># While nodes to visit
+</span>    <span class="k">while</span> <span class="n">pq</span><span class="p">:</span>
+        <span class="c1"># Get node with smallest distance
+</span>        <span class="n">curr_dist</span><span class="p">,</span> <span class="n">u</span> <span class="o">=</span> <span class="n">heapq</span><span class="p">.</span><span class="n">heappop</span><span class="p">(</span><span class="n">pq</span><span class="p">)</span>
+
+        <span class="c1"># Go through neighbors
+</span>        <span class="k">for</span> <span class="n">v</span><span class="p">,</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">[</span><span class="n">u</span><span class="p">]:</span>
+            <span class="n">new_dist</span> <span class="o">=</span> <span class="n">curr_dist</span> <span class="o">+</span> <span class="n">w</span>
+
+            <span class="c1"># Relaxation
+</span>            <span class="k">if</span> <span class="n">new_dist</span> <span class="o">&lt;</span> <span class="n">dist</span><span class="p">[</span><span class="n">v</span><span class="p">]:</span>
+                <span class="n">dist</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_dist</span>
+                <span class="n">heapq</span><span class="p">.</span><span class="n">heappush</span><span class="p">(</span><span class="n">pq</span><span class="p">,</span> <span class="p">(</span><span class="n">new_dist</span><span class="p">,</span> <span class="n">v</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">dist</span>
+
+
+<span class="n">graph</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'A'</span><span class="p">:[(</span><span class="s">'B'</span><span class="p">,</span><span class="mi">1</span><span class="p">),(</span><span class="s">'C'</span><span class="p">,</span><span class="mi">4</span><span class="p">)],</span>
+    <span class="s">'B'</span><span class="p">:[(</span><span class="s">'C'</span><span class="p">,</span><span class="mi">2</span><span class="p">),(</span><span class="s">'D'</span><span class="p">,</span><span class="mi">5</span><span class="p">)],</span>
+    <span class="s">'C'</span><span class="p">:[(</span><span class="s">'D'</span><span class="p">,</span><span class="mi">1</span><span class="p">)],</span>
+    <span class="s">'D'</span><span class="p">:[]</span>
+<span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">dijkstra</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="s">'A'</span><span class="p">))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> GPS systems, packet routing.</p>
+
+<hr>
+
+<h3 id="floydwarshall-algorithm">Floyd–Warshall Algorithm</h3>
+
+<p><strong>Purpose:</strong> Finds all-pairs shortest paths.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/floyd-warshall.py"><code class="language-plaintext highlighter-rouge">floyd_warshall.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">INF</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">)</span>
+
+<span class="n">graph</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="n">INF</span><span class="p">,</span><span class="mi">7</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">8</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="n">INF</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="n">INF</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="n">INF</span><span class="p">,</span><span class="n">INF</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">floyd_warshall</span><span class="p">(</span><span class="n">dist</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dist</span><span class="p">)</span>
+
+    <span class="c1"># Intermediate vertices
+</span>    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="c1"># Starting vertex
+</span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+            <span class="c1"># Ending vertex
+</span>            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+                <span class="c1"># Relaxation
+</span>                <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="n">dist</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+
+    <span class="k">return</span> <span class="n">dist</span>
+
+
+<span class="k">print</span><span class="p">(</span><span class="n">floyd_warshall</span><span class="p">(</span><span class="n">graph</span><span class="p">))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> City-wide routing systems.</p>
+
+<hr>
+
+<h3 id="kruskals-algorithm-1">Kruskal’s Algorithm</h3>
+
+<p><strong>Purpose:</strong> Finds Minimum Spanning Tree.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/kruskal.py"><code class="language-plaintext highlighter-rouge">kruskal.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1"># Detect cycles
+</span><span class="k">class</span> <span class="nc">UnionFind</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+        <span class="c1"># Each node is its own parent
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">p</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+
+    <span class="c1"># Finds the root of the set containing element
+</span>    <span class="k">def</span> <span class="nf">find</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="c1"># If x is not the root, recursively find the root
+</span>        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">p</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">!=</span> <span class="n">x</span><span class="p">:</span>
+            <span class="c1"># Set x's parent directly to the root
+</span>            <span class="bp">self</span><span class="p">.</span><span class="n">p</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">p</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">p</span><span class="p">[</span><span class="n">x</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">union</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="c1"># Find root of a and b
+</span>        <span class="n">ra</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+        <span class="n">rb</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+        <span class="c1"># If they are not already in the same set, merge them
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">p</span><span class="p">[</span><span class="n">ra</span><span class="p">]</span> <span class="o">=</span> <span class="n">rb</span>
+
+
+<span class="k">def</span> <span class="nf">kruskal</span><span class="p">(</span><span class="n">edges</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="n">edges</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="c1">#Init
+</span>    <span class="n">uf</span> <span class="o">=</span> <span class="n">UnionFind</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="c1"># Store MST edges
+</span>    <span class="n">mst</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Iterate through all edges in increasing order of weight
+</span>    <span class="k">for</span> <span class="n">w</span><span class="p">,</span><span class="n">u</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">edges</span><span class="p">:</span>
+        <span class="c1"># Check cycle
+</span>        <span class="k">if</span> <span class="n">uf</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">u</span><span class="p">)</span> <span class="o">!=</span> <span class="n">uf</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+            <span class="n">uf</span><span class="p">.</span><span class="n">union</span><span class="p">(</span><span class="n">u</span><span class="p">,</span><span class="n">v</span><span class="p">)</span>
+            <span class="n">mst</span><span class="p">.</span><span class="n">append</span><span class="p">((</span><span class="n">u</span><span class="p">,</span><span class="n">v</span><span class="p">,</span><span class="n">w</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">mst</span>
+
+
+<span class="n">edges</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">),(</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">),(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),(</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">kruskal</span><span class="p">(</span><span class="n">edges</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> Infrastructure design, wiring layouts.</p>
+
+<hr>
+
+<h3 id="greedy-graph-coloring">Greedy Graph Coloring</h3>
+
+<p><strong>Purpose:</strong> Colors vertices so no two adjacent vertices share a color.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/greedy-coloring.py"><code class="language-plaintext highlighter-rouge">greedy_coloring.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">greedy_coloring</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">order</span><span class="p">):</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="c1"># Iterate through the vertices in the specified order
+</span>    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">order</span><span class="p">:</span>
+        <span class="c1"># Create a set of colors already used by the neighbors of v that are already colored
+</span>        <span class="n">used</span> <span class="o">=</span> <span class="p">{</span><span class="n">color</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="k">if</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">color</span><span class="p">}</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="c1"># Find the smallest color that is not in the used set
+</span>        <span class="k">while</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">used</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="c1"># Assign the first available smallest color to the current vertex
+</span>        <span class="n">color</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="n">c</span>
+
+    <span class="k">return</span> <span class="n">color</span>
+
+
+<span class="n">graph</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'A'</span><span class="p">:[</span><span class="s">'B'</span><span class="p">,</span><span class="s">'C'</span><span class="p">],</span>
+    <span class="s">'B'</span><span class="p">:[</span><span class="s">'A'</span><span class="p">,</span><span class="s">'C'</span><span class="p">],</span>
+    <span class="s">'C'</span><span class="p">:[</span><span class="s">'A'</span><span class="p">,</span><span class="s">'B'</span><span class="p">,</span><span class="s">'D'</span><span class="p">],</span>
+    <span class="s">'D'</span><span class="p">:[</span><span class="s">'C'</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">greedy_coloring</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="p">[</span><span class="s">'A'</span><span class="p">,</span><span class="s">'B'</span><span class="p">,</span><span class="s">'C'</span><span class="p">,</span><span class="s">'D'</span><span class="p">]))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> Scheduling, register allocation.</p>
+
+<hr>
+
+<h3 id="depth-first-search-dfs">Depth-First Search (DFS)</h3>
+
+<p><strong>Purpose:</strong> Traverses a graph deeply before backtracking.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/dfs.py"><code class="language-plaintext highlighter-rouge">dfs.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">start</span><span class="p">):</span>
+    <span class="n">visited</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">stack</span> <span class="o">=</span> <span class="p">[</span><span class="n">start</span><span class="p">]</span>
+
+    <span class="c1"># While nodes in stack
+</span>    <span class="k">while</span> <span class="n">stack</span><span class="p">:</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">stack</span><span class="p">.</span><span class="n">pop</span><span class="p">()</span>
+
+        <span class="c1"># If not visited
+</span>        <span class="k">if</span> <span class="n">v</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">visited</span><span class="p">:</span>
+            <span class="c1"># Visit node
+</span>            <span class="n">visited</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+
+            <span class="c1"># Add neighbors to stack
+</span>            <span class="k">for</span> <span class="n">neighbor</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">[</span><span class="n">v</span><span class="p">]:</span>
+                <span class="n">stack</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">neighbor</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">visited</span>
+
+
+<span class="n">graph</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'A'</span><span class="p">:</span> <span class="p">[</span><span class="s">'B'</span><span class="p">,</span><span class="s">'C'</span><span class="p">],</span>
+    <span class="s">'B'</span><span class="p">:</span> <span class="p">[</span><span class="s">'A'</span><span class="p">,</span><span class="s">'D'</span><span class="p">],</span>
+    <span class="s">'C'</span><span class="p">:</span> <span class="p">[</span><span class="s">'A'</span><span class="p">],</span>
+    <span class="s">'D'</span><span class="p">:</span> <span class="p">[</span><span class="s">'B'</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">dfs</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="s">'A'</span><span class="p">))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> Cycle detection, maze solving.</p>
+
+<hr>
+
+<h3 id="fordfulkerson-algorithm">Ford–Fulkerson Algorithm</h3>
+
+<p><strong>Purpose:</strong> Computes maximum flow in a network.</p>
+
+<p><strong>File:</strong> <a href="/MTH-325-Wells-Portfolio/scripts/ford-fulkerson.py"><code class="language-plaintext highlighter-rouge">ford_fulkerson.py</code></a></p>
+
+<p><strong>Code:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">deque</span>
+
+<span class="k">def</span> <span class="nf">bfs</span><span class="p">(</span><span class="n">rg</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+    <span class="n">visited</span> <span class="o">=</span> <span class="p">[</span><span class="bp">False</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">rg</span><span class="p">)</span>
+    <span class="n">queue</span> <span class="o">=</span> <span class="n">deque</span><span class="p">([</span><span class="n">s</span><span class="p">])</span>
+    <span class="c1"># Root node visited
+</span>    <span class="n">visited</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+
+    <span class="k">while</span> <span class="n">queue</span><span class="p">:</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">queue</span><span class="p">.</span><span class="n">popleft</span><span class="p">()</span>
+
+        <span class="c1"># Iterate over all possible neighbors
+</span>        <span class="k">for</span> <span class="n">v</span><span class="p">,</span><span class="n">cap</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">rg</span><span class="p">[</span><span class="n">u</span><span class="p">]):</span>
+            <span class="c1"># If not visited AND there is capacity remaining from u to v
+</span>            <span class="k">if</span> <span class="ow">not</span> <span class="n">visited</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="ow">and</span> <span class="n">cap</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">visited</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+                <span class="n">parent</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="n">u</span>
+                <span class="n">queue</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">visited</span><span class="p">[</span><span class="n">t</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">ford_fulkerson</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">graph</span><span class="p">)</span>
+    <span class="c1"># Residual graph
+</span>    <span class="n">rg</span> <span class="o">=</span> <span class="p">[</span><span class="n">row</span><span class="p">[:]</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">]</span>
+    <span class="c1"># Parent array for bfs path
+</span>    <span class="n">parent</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
+    <span class="n">max_flow</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="c1"># Repeat as long as an augmenting path can be found from s to t
+</span>    <span class="k">while</span> <span class="n">bfs</span><span class="p">(</span><span class="n">rg</span><span class="p">,</span><span class="n">s</span><span class="p">,</span><span class="n">t</span><span class="p">,</span><span class="n">parent</span><span class="p">):</span>
+        <span class="n">path_flow</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s">'inf'</span><span class="p">)</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">t</span>
+
+        <span class="c1"># Move backwards
+</span>        <span class="k">while</span> <span class="n">v</span> <span class="o">!=</span> <span class="n">s</span><span class="p">:</span>
+            <span class="n">u</span> <span class="o">=</span> <span class="n">parent</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>
+            <span class="c1"># Find the minimum capacity in the path
+</span>            <span class="n">path_flow</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">path_flow</span><span class="p">,</span> <span class="n">rg</span><span class="p">[</span><span class="n">u</span><span class="p">][</span><span class="n">v</span><span class="p">])</span>
+            <span class="n">v</span> <span class="o">=</span> <span class="n">parent</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>
+
+        <span class="c1"># Update capacities
+</span>        <span class="n">v</span> <span class="o">=</span> <span class="n">t</span>
+        <span class="c1"># Move backwards
+</span>        <span class="k">while</span> <span class="n">v</span> <span class="o">!=</span> <span class="n">s</span><span class="p">:</span>
+            <span class="n">u</span> <span class="o">=</span> <span class="n">parent</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>
+            <span class="c1"># Decrease
+</span>            <span class="n">rg</span><span class="p">[</span><span class="n">u</span><span class="p">][</span><span class="n">v</span><span class="p">]</span> <span class="o">-=</span> <span class="n">path_flow</span>
+            <span class="c1"># Increase
+</span>            <span class="n">rg</span><span class="p">[</span><span class="n">v</span><span class="p">][</span><span class="n">u</span><span class="p">]</span> <span class="o">+=</span> <span class="n">path_flow</span>
+            <span class="n">v</span> <span class="o">=</span> <span class="n">parent</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>
+
+        <span class="c1"># Add to max flow
+</span>        <span class="n">max_flow</span> <span class="o">+=</span> <span class="n">path_flow</span>
+
+    <span class="k">return</span> <span class="n">max_flow</span>
+
+
+<span class="n">graph</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">16</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+<span class="p">]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">ford_fulkerson</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span></code></pre></figure>
+
+<p><strong>Use Case:</strong> Traffic flow, data networks.</p>
+
+<hr>
+
+<h2 id="citations">Citations</h2>
+
+<ul>
+  <li><a href="https://faculty.gvsu.edu/wellsc/discrete/data_structures_done_discretely.html" target="_blank" rel="noopener noreferrer">
+Class Text
+</a></li>
+  <li><a href="/MTH-325-Wells-Portfolio/notes/">Notes</a></li>
+</ul>
+
+
+      </section>
+
+    </div>
+  </body>
+</html>
