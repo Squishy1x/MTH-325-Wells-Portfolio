@@ -1,6 +1,6 @@
----
+{{ site.baseurl }}---
 layout: default
-title: Portfolio - Josh Burgenmeyer
+title: Portfolio - Josh Burgenmeyer <!-- omit in toc -->
 ---
 
 ## MTH 325 Portfolio <!-- omit in toc -->
