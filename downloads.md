@@ -6,7 +6,7 @@ permalink: /downloads/
 
 # Downloads
 
-All scripts used in this portfolio are available for download below.
+All scripts used in this portfolio are available for download below. There are also small descriptions and viewable code block without downloading available [Here]({{ site.baseurl }}/#algorithms-with-code)
 
 ---
 
