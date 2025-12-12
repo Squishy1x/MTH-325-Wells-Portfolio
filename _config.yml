@@ -24,6 +24,8 @@ github:
 title: MTH 325 Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   Discrete Structures: Computer Science 2 - Clark Wells
+baseurl: "/MTH-325-Wells-Portfolio" # the subpath of your site, e.g. /blog
+url: "https://squishy1x.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: pages-themes/midnight@v0.2.0
